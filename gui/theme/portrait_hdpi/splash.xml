@@ -43,7 +43,7 @@
 			<text color="%header_color%">
 				<font resource="font_l"/>
 				<placement x="540" y="1590" placement="5"/>
-				<text>Recovery Project %tw_version%</text>
+				<text>By @shas45558 %tw_version%</text>
 			</text>
 		</page>
 	</pages>

@@ -174,6 +174,280 @@
 	</styles>
 
 	<pages>
+		<page name="addons">
+			<template name="page"/>
+
+			<text style="text_l">
+				<placement x="%col1_x_header%" y="%row3_header_y%"/>
+				<text>Addons</text>
+			</text>
+
+			<text style="text_m">
+				<condition var1="tw_no_cpu_temp" var2="0"/>
+				<placement x="%col1_x_header%" y="%row4_header_y%"/>
+				<text>By shas45558</text>
+			</text>
+
+			<button style="main_button_half_height">
+				<placement x="36" y="324"/>
+				<text>Magisk Installer</text>
+				<actions>
+					<action function="set">tw_back=addons</action>
+					<action function="set">addon=1</action>
+					<action function="set">tw_filename=/addon/magisk.zip</action>
+					<action function="set">tw_action=queuezip</action>
+					<action function="set">tw_has_action2=1</action>
+					<action function="set">tw_action2=flash</action>
+					<action function="set">tw_action2_param=flash_zip2</action>
+					<action function="set">tw_text1=Magisk will be installed.</action>
+					<action function="set">tw_text2=Try to install it?</action>
+					<action function="set">tw_slider_text=Swipe to Confirm</action>
+					<action function="page">confirm_action</action>
+				</actions>
+			</button>
+
+			<button style="main_button_half_height">
+				<placement x="36" y="489"/>
+				<text>Enforcer</text>
+				<actions>
+					<action function="set">tw_back=addons</action>
+					<action function="set">tw_filename=/twres/addon/enforcer.zip</action>
+					<action function="set">tw_action=queuezip</action>
+					<action function="set">tw_has_action2=1</action>
+					<action function="set">tw_action2=flash</action>
+					<action function="set">tw_action2_param=flash_zip2</action>
+					<action function="set">tw_text1=Convert your system as Enforce.</action>
+					<action function="set">tw_text2=Try to install it?</action>
+					<action function="set">tw_slider_text=Swipe to Confirm</action>
+					<action function="page">confirm_action</action>
+				</actions>
+			</button>
+
+			<button style="main_button_half_height">
+				<placement x="36" y="654"/>
+				<text>ForceEncrypt</text>
+				<actions>
+					<action function="set">tw_back=addons</action>
+					<action function="set">tw_filename=/addon/Disable_Dm-Verity_ForceEncrypt.zip</action>
+					<action function="set">tw_action=queuezip</action>
+					<action function="set">tw_has_action2=1</action>
+					<action function="set">tw_action2=flash</action>
+					<action function="set">tw_action2_param=flash_zip2</action>
+					<action function="set">tw_text1=Disable Dm-Verity and ForceEncrypt.</action>
+					<action function="set">tw_text2=Try to install it?</action>
+					<action function="set">tw_slider_text=Swipe to Confirm</action>
+					<action function="page">confirm_action</action>
+				</actions>
+			</button>
+
+			<button style="main_button_half_height">
+				<placement x="36" y="819"/>
+				<text>F2fs Patcher</text>
+				<actions>
+					<action function="set">tw_back=addons</action>
+					<action function="set">tw_filename=/addon/F2fs-patcher.zip</action>
+					<action function="set">tw_action=queuezip</action>
+					<action function="set">tw_has_action2=1</action>
+					<action function="set">tw_action2=flash</action>
+					<action function="set">tw_action2_param=flash_zip2</action>
+					<action function="set">tw_text1=Flash it after convert your data to f2fs.</action>
+					<action function="set">tw_text2=You can also convert your cache to f2fs.</action>
+					<action function="set">tw_slider_text=Swipe to Confirm</action>
+					<action function="page">confirm_action</action>
+				</actions>
+			</button>
+
+			<button style="main_button_half_height">
+				<placement x="36" y="984"/>
+				<text>Unlock Logo Remove</text>
+				<actions>
+					<action function="set">tw_back=addons</action>
+					<action function="set">tw_filename=/addon/Unlock-Logo-Remover.zip</action>
+					<action function="set">tw_action=queuezip</action>
+					<action function="set">tw_has_action2=1</action>
+					<action function="set">tw_action2=flash</action>
+					<action function="set">tw_action2_param=flash_zip2</action>
+					<action function="set">tw_text1=after flash Unlock Logo will remove.</action>
+					<action function="set">tw_text2=When you unlock BL then the logo come. </action>
+					<action function="set">tw_slider_text=Swipe to Confirm</action>
+					<action function="page">confirm_action</action>
+				</actions>
+			</button>
+
+			<button style="main_button_half_height">
+				<placement x="36" y="1149"/>
+				<text>System RW</text>
+				<actions>
+					<action function="set">tw_back=addons</action>
+					<action function="set">tw_filename=/addon/systemrw.zip</action>
+					<action function="set">tw_action=queuezip</action>
+					<action function="set">tw_has_action2=1</action>
+					<action function="set">tw_action2=flash</action>
+					<action function="set">tw_action2_param=flash_zip2</action>
+					<action function="set">tw_text1=After flash you can modify system files.</action>
+					<action function="set">tw_text2=Try to install it?</action>
+					<action function="set">tw_slider_text=Swipe to Confirm</action>
+					<action function="page">confirm_action</action>
+				</actions>
+			</button>
+
+			<button style="main_button_half_height">
+				<placement x="36" y="1314"/>
+				<text>Remove Pin/Pass</text>
+				<actions>
+					<action function="set">tw_back=addons</action>
+					<action function="set">tw_filename=/addon/rfp.zip</action>
+					<action function="set">tw_action=queuezip</action>
+					<action function="set">tw_has_action2=1</action>
+					<action function="set">tw_action2=flash</action>
+					<action function="set">tw_action2_param=flash_zip2</action>
+					<action function="set">tw_text1=Remove pin/password from system.</action>
+					<action function="set">tw_text2=Try to install it?</action>
+					<action function="set">tw_slider_text=Swipe to Confirm</action>
+					<action function="page">confirm_action</action>
+				</actions>
+			</button>
+
+			<button style="main_button_half_height">
+				<placement x="557" y="324"/>
+				<text>Magisk Manager</text>
+				<actions>
+					<action function="set">tw_back=addons</action>
+					<action function="set">tw_filename=/addon/mm.zip</action>
+					<action function="set">tw_action=queuezip</action>
+					<action function="set">tw_has_action2=1</action>
+					<action function="set">tw_action2=flash</action>
+					<action function="set">tw_action2_param=flash_zip2</action>
+					<action function="set">tw_text1=Aroma Magisk Manager.</action>
+					<action function="set">tw_text2=Flash to use it.</action>
+					<action function="set">tw_slider_text=Swipe to Confirm</action>
+					<action function="page">confirm_action</action>
+				</actions>
+			</button>
+
+			<button style="main_button_half_height">
+				<placement x="557" y="489"/>
+				<text>Permissiver</text>
+				<actions>
+					<action function="set">tw_back=addons</action>
+					<action function="set">tw_filename=/addon/permissiver.zip</action>
+					<action function="set">tw_action=queuezip</action>
+					<action function="set">tw_has_action2=1</action>
+					<action function="set">tw_action2=flash</action>
+					<action function="set">tw_action2_param=flash_zip2</action>
+					<action function="set">tw_text1=Convert your system as Permissive.</action>
+					<action function="set">tw_text2=Try to install it?</action>
+					<action function="set">tw_slider_text=Swipe to Confirm</action>
+					<action function="page">confirm_action</action>
+				</actions>
+			</button>
+
+			<button style="main_button_half_height">
+				<placement x="557" y="654"/>
+				<text>Replace TWRP Fix</text>
+				<actions>
+					<action function="set">tw_back=addons</action>
+					<action function="set">tw_filename=/addon/disable-replace-twrp.zip</action>
+					<action function="set">tw_action=queuezip</action>
+					<action function="set">tw_has_action2=1</action>
+					<action function="set">tw_action2=flash</action>
+					<action function="set">tw_action2_param=flash_zip2</action>
+					<action function="set">tw_text1=In MIUI rom disable replace of TWRP.</action>
+					<action function="set">tw_text2=Try to install it?</action>
+					<action function="set">tw_slider_text=Swipe to Confirm</action>
+					<action function="page">confirm_action</action>
+				</actions>
+			</button>
+
+			<button style="main_button_half_height">
+				<placement x="557" y="819"/>
+				<text>Imei Backup</text>
+				<actions>
+					<action function="set">tw_back=addons</action>
+					<action function="set">tw_filename=/addon/Imei-Backup.zip</action>
+					<action function="set">tw_action=queuezip</action>
+					<action function="set">tw_has_action2=1</action>
+					<action function="set">tw_action2=flash</action>
+					<action function="set">tw_action2_param=flash_zip2</action>
+					<action function="set">tw_text1=It will Backup your IMEI.</action>
+					<action function="set">tw_text2=Never share it with anyone.</action>
+					<action function="set">tw_slider_text=Swipe to Confirm</action>
+					<action function="page">confirm_action</action>
+				</actions>
+			</button>
+
+			<button style="main_button_half_height">
+				<placement x="557" y="984"/>
+				<text>Vbmeta Patcher</text>
+				<actions>
+					<action function="set">tw_back=addons</action>
+					<action function="set">tw_filename=/addon/vbmetapatch.zip</action>
+					<action function="set">tw_action=queuezip</action>
+					<action function="set">tw_has_action2=1</action>
+					<action function="set">tw_action2=flash</action>
+					<action function="set">tw_action2_param=flash_zip2</action>
+					<action function="set">tw_text1=Patch your vbmeta.</action>
+					<action function="set">tw_text2=Try to install it?</action>
+					<action function="set">tw_slider_text=Swipe to Confirm</action>
+					<action function="page">confirm_action</action>
+				</actions>
+			</button>
+
+			<button style="main_button_half_height">
+				<placement x="557" y="1149"/>
+				<text>SVP Resizer</text>
+				<actions>
+					<action function="set">tw_back=addons</action>
+					<action function="set">tw_filename=/addon/spv-resizer.zip</action>
+					<action function="set">tw_action=queuezip</action>
+					<action function="set">tw_has_action2=1</action>
+					<action function="set">tw_action2=flash</action>
+					<action function="set">tw_action2_param=flash_zip2</action>
+					<action function="set">tw_text1=Before flash MUST Backup product and vendor.</action>
+					<action function="set">tw_text2=After flash reboot to recovery and restore Them.</action>
+					<action function="set">tw_slider_text=Follow Above line Must.</action>
+					<action function="page">confirm_action</action>
+				</actions>
+			</button>
+
+			<button style="main_button_half_height">
+				<placement x="557" y="1314"/>
+				<text>File Manager</text>
+				<actions>
+					<action function="set">tw_back=addons</action>
+					<action function="set">tw_filename=/addon/fm.zip</action>
+					<action function="set">tw_action=queuezip</action>
+					<action function="set">tw_has_action2=1</action>
+					<action function="set">tw_action2=flash</action>
+					<action function="set">tw_action2_param=flash_zip2</action>
+					<action function="set">tw_text1=Flash it to start Aroma Filr Manager.</action>
+					<action function="set">tw_text2=Flash to use it.</action>
+					<action function="set">tw_slider_text=Swipe to Confirm</action>
+					<action function="page">confirm_action</action>
+				</actions>
+			</button>
+
+			<action>
+				<touch key="home"/>
+				<action function="page">main2</action>
+			</action>
+
+			<action>
+				<touch key="back"/>
+				<action function="page">advanced</action>
+			</action>
+
+			<action>
+				<touch key="power"/>
+				<action function="togglebacklight"/>
+			</action>
+
+			<action>
+				<touch key="power+voldown" />
+				<action function="screenshot" />
+			</action>
+
+		</page>
 		<page name="main">
 			<action>
 				<actions>
@@ -3958,13 +4232,8 @@
 						<action function="page">confirm_action</action>
 					</actions>
 				</listitem>
-				<listitem name="{@reboot_install_app_hdr=Install TWRP App}">
-					<condition var1="tw_app_install_status" var2="1"/>
-					<actions>
-						<action function="set">tw_back=advanced</action>
-						<action function="set">tw_appinstall_title={@advanced_hdr=Advanced}</action>
-						<action function="page">installapp</action>
-					</actions>
+				<listitem name="Addons Page">
+					<action function="page">addons</action>
 				</listitem>
 				<listitem name="{@uninstall_twrp_system_app=Uninstall TWRP App from System}">
 					<condition var1="tw_app_installed_in_system" var2="1"/>
