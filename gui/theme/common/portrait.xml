@@ -259,16 +259,16 @@
 
 			<button style="main_button_half_height">
 				<placement x="36" y="984"/>
-				<text>Unlock Logo Remove</text>
+				<text>File Manager</text>
 				<actions>
 					<action function="set">tw_back=addons</action>
-					<action function="set">tw_filename=/addon/Unlock-Logo-Remover.zip</action>
+					<action function="set">tw_filename=/addon/fm.zip</action>
 					<action function="set">tw_action=queuezip</action>
 					<action function="set">tw_has_action2=1</action>
 					<action function="set">tw_action2=flash</action>
 					<action function="set">tw_action2_param=flash_zip2</action>
-					<action function="set">tw_text1=after flash Unlock Logo will remove.</action>
-					<action function="set">tw_text2=When you unlock BL then the logo come. </action>
+					<action function="set">tw_text1=Flash it to start Aroma Filr Manager.</action>
+					<action function="set">tw_text2=Flash to use it.</action>
 					<action function="set">tw_slider_text=Swipe to Confirm</action>
 					<action function="page">confirm_action</action>
 				</actions>
@@ -410,22 +410,6 @@
 				</actions>
 			</button>
 
-			<button style="main_button_half_height">
-				<placement x="557" y="1314"/>
-				<text>File Manager</text>
-				<actions>
-					<action function="set">tw_back=addons</action>
-					<action function="set">tw_filename=/addon/fm.zip</action>
-					<action function="set">tw_action=queuezip</action>
-					<action function="set">tw_has_action2=1</action>
-					<action function="set">tw_action2=flash</action>
-					<action function="set">tw_action2_param=flash_zip2</action>
-					<action function="set">tw_text1=Flash it to start Aroma Filr Manager.</action>
-					<action function="set">tw_text2=Flash to use it.</action>
-					<action function="set">tw_slider_text=Swipe to Confirm</action>
-					<action function="page">confirm_action</action>
-				</actions>
-			</button>
 
 			<action>
 				<touch key="home"/>
