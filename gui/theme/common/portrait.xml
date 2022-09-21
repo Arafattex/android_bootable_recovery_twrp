@@ -34,7 +34,7 @@
 
 		<style name="main_button">
 			<highlight color="%highlight_color%"/>
-			<font resource="font_l" color="%text_button_color%"/>
+			<font resource="font_l1" color="%text_button_color%"/>
 			<image resource="main_button"/>
 		</style>
 
