@@ -6,7 +6,7 @@
 		<title>Backup Naowz</title>
 		<description>Default basic theme</description>
 		<preview>preview.png</preview>
-		<themeversion>{themeversion}</themeversion>
+		<themeversion>5</themeversion>
 	</details>
 
 	<include>
@@ -73,7 +73,7 @@
 
 	<variables>
 		<variable name="tw_samsung_navbar" value="0" persist="1"/>
-
+                <variable name="clock_pos" value="108"/>
 		<variable name="tw_hide_kb" value="0"/>
 		<variable name="screen_width" value="1080"/>
 		<variable name="screen_height" value="1920"/>
@@ -117,7 +117,7 @@
 		<variable name="status_topalign_header_y" value="4"/>
 		<variable name="status_centeralign_header_y" value="15"/>
 		<variable name="status_bottomalign_header_y" value="30"/>
-		<variable name="row1_header_y" value="{statusicons_align}"/>
+		<variable name="row1_header_y" value="%status_topalign_header_y%"/>
 		<variable name="row2_header_y" value="72"/>
 		<variable name="row3_header_y" value="90"/>
 		<variable name="row4_header_y" value="168"/>
@@ -178,8 +178,8 @@
 		<variable name="navbar_btn_y" value="1856"/>
 		<variable name="keyboard_y" value="1149"/>
 		<variable name="keyboard_terminal_y" value="1053"/>
-		<variable name="background_color" value="#1A1A1A"/>
-		<variable name="accent_color" value="#0090CA"/>
+		<variable name="background_color" value="#000000"/>
+		<variable name="accent_color" value="#ff1703"/>
 		<variable name="accent_color_semitransparent" value="#0090CA30"/>
 		<variable name="text_color" value="#EEEEEE"/>
 		<variable name="text_button_color" value="#EEEEEE"/>
@@ -227,10 +227,10 @@
 		<variable name="pattern_dot_dia" value="32"/>
 		<variable name="pattern_line_w" value="12"/>
 		<variable name="pattern_size" value="828"/>
-		<variable name="tw_clock_12_pos_x" value="{clock_12_pos}"/>
-		<variable name="tw_clock_24_pos_x" value="{clock_24_pos}"/>
-		<variable name="tw_cpu_pos_x" value="{cpu_pos}"/>
-		<variable name="tw_battery_pos_x" value="{battery_pos}"/>
+		<variable name="tw_clock_12_pos_x" value="0"/>
+		<variable name="tw_clock_24_pos_x" value="0"/>
+		<variable name="tw_cpu_pos_x" value="0"/>
+		<variable name="tw_battery_pos_x" value="0"/>
 	</variables>
 
 	<mousecursor>
@@ -284,7 +284,7 @@
 				<condition var1="tw_clock_12_pos_x" var2="0"/>
 				<condition var1="tw_clock_24_pos_x" var2="0"/>
 				<font resource="font_m"/>
-				<placement x="%col1_x_header%" y="%row1_header_y%" placement="5"/>
+				<placement x="%clock_pos%" y="%row1_header_y%" placement="5"/>
 				<text>%tw_time%</text>
 			</text>
 
@@ -300,7 +300,7 @@
 				<text>{@battery_pct=Battery: %tw_battery%}</text>
 			</text>
 
-			<!-- Custom position for status bar items if defined START -->
+			
 
 			<fill color="#000000">
 				<condition var1="tw_busy" var2="0"/>
