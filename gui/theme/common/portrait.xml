@@ -179,7 +179,7 @@
 
 			<text style="text_l">
 				<placement x="%col1_x_header%" y="%row3_header_y%"/>
-				<text>Addons</text>
+				<text>Addons By shas45558</text>
 			</text>
 
 			<text style="text_m">
@@ -292,7 +292,7 @@
 			</button>
 
 			<button style="main_button_half_height">
-				<placement x="36" y="1314"/>
+				<placement x="557" y="1149"/>
 				<text>Remove Pin/Pass</text>
 				<actions>
 					<action function="set">tw_back=addons</action>
@@ -393,23 +393,6 @@
 				</actions>
 			</button>
 
-			<button style="main_button_half_height">
-				<placement x="557" y="1149"/>
-				<text>SVP Resizer</text>
-				<actions>
-					<action function="set">tw_back=addons</action>
-					<action function="set">tw_filename=/addon/spv-resizer.zip</action>
-					<action function="set">tw_action=queuezip</action>
-					<action function="set">tw_has_action2=1</action>
-					<action function="set">tw_action2=flash</action>
-					<action function="set">tw_action2_param=flash_zip2</action>
-					<action function="set">tw_text1=Before flash MUST Backup product and vendor.</action>
-					<action function="set">tw_text2=After flash reboot to recovery and restore Them.</action>
-					<action function="set">tw_slider_text=Follow Above line Must.</action>
-					<action function="page">confirm_action</action>
-				</actions>
-			</button>
-
 
 			<action>
 				<touch key="home"/>
@@ -452,7 +435,7 @@
 			<text style="text_m">
 				<condition var1="tw_no_cpu_temp" var2="0"/>
 				<placement x="%col1_x_header%" y="%row4_header_y%"/>
-				<text>%tw_version% by @shas45558</text>
+				<text>%tw_version% by @shas45558,@sam_memer.exe</text>
 			</text>
 
 			<button style="main_button">
@@ -2599,7 +2582,7 @@
 			<template name="sort_options"/>
 
 			<fileselector>
-				<placement x="%indent%" y="%row3_y%" w="%content_width%" h="%fileselector_install_height%"/>
+				<placement x="%indent%" y="420" w="%content_width%" h="%fileselector_install_height%"/>
 				<text>{@restore_sel_pack_fs=Select Package to Restore:}</text>
 				<filter folders="1" files="1" nav="0" extn=".ab"/>
 				<path name="tw_backups_folder"/>
@@ -4026,75 +4009,24 @@
 				<text>{@file_manager_btn=File Manager}</text>
 				<action function="page">filemanagerlist</action>
 			</button>
+			
+			<button style="main_button">
+				<placement x="%indent%" y="%row13a_y%"/>
+				<text>{@terminal_btn=Terminal}</text>
+				<action function="page">terminalcommand</action>
+			</button>
 
-			<listbox style="advanced_listbox">
-				<placement x="%indent%" y="%row13a_y%" w="%content_width%" h="%listbox_advanced_height%"/>
-				<listitem name="{@change_twrp_folder_btn=Change TWRP folder}">
-					<condition var1="tw_is_decrypted" var2="1"/>
-					<action function="page">changeTwrpFolder</action>
-				</listitem>
-				<listitem name="{@decrypt_users=Decrypt Users}">
-					<conditions>
-						<condition var1="tw_is_fbe" var2="1"/>
-						<condition var1="tw_all_users_decrypted" var2="0"/>
-					</conditions>
-					<actions>
-						<action function="set">tw_crypto_user_id=</action>
-						<action function="page">decrypt_users</action>
-					</actions>
-				</listitem>
-				<listitem name="{@reload_theme_btn=Reload Theme}">
-					<action function="reload"/>
-				</listitem>
-				
-			
-				<listitem name="{@install_kernel=Install Kernel}">
-					<actions>
-						<action function="set">tw_repack_kernel=1</action>
-						<action function="page">repackselect</action>
-					</actions>
-				</listitem>
-			
-				<listitem name="{@terminal_btn=Terminal}">
-                                        <action function="page">terminalcommand</action>
-				</listitem>
-				<listitem name="{@uninstall_twrp_system_app=Uninstall TWRP App from System}">
-					<condition var1="tw_app_installed_in_system" var2="1"/>
-					<actions>
-						<action function="set">tw_back=advanced</action>
-						<action function="set">tw_action=uninstalltwrpsystemapp</action>
-						<action function="set">tw_text1={@uninstall_twrp_system_app_confirm=Uninstall TWRP App from System?}</action>
-						<action function="set">tw_action_text1={@uninstalling_twrp_system_app=Uninstalling TWRP App from System...}</action>
-						<action function="set">tw_complete_text1={@uninstall_twrp_system_app_complete=Uninstall TWRP App from System Complete}</action>
-						<action function="set">tw_slider_text={@swipe_to_confirm=Swipe to Confirm}</action>
-						<action function="page">confirm_action</action>
-					</actions>
-				</listitem>
-				<listitem name="{@unmap_super_devices=Unmap Super Devices}">
-					<condition var1="tw_is_super" op="=" var2="1"/>
-					<actions>
-						<action function="set">tw_back=advanced</action>
-						<action function="set">tw_action=unmapsuperdevices</action>
-						<action function="set">tw_text1={@unmap_super_devices_confirm=Unmap all Super Devices?}</action>
-						<action function="set">tw_action_text1={@unmapping_super_devices=Unmapping Super Devices...}</action>
-						<action function="set">tw_complete_text1={@unmap_super_devices_complete=Unmapped all Super Devices}</action>
-						<action function="set">tw_slider_text={@swipe_to_confirm=Swipe to Confirm}</action>
-						<action function="page">confirm_action</action>
-					</actions>
-				</listitem>
-				<listitem name="{@merges_snapshots=Merge Snapshots}">
-					<condition var1="tw_virtual_ab.enabled" op="=" var2="1"/>
-					<actions>
-						<action function="set">tw_back=advanced</action>
-						<action function="set">tw_action=mergesnapshots</action>
-						<action function="set">tw_text1={@merge_snapshots_confirm=Merge Snapshots?}</action>
-						<action function="set">tw_action_text1={@merging_snapshots=Merging Snapshots...}</action>
-						<action function="set">tw_complete_text1={@merging_snapshots_complete=Merged Snapshots}</action>
-						<action function="set">tw_slider_text={@swipe_to_confirm=Swipe to Confirm}</action>
-						<action function="page">confirm_action</action>
-					</actions>
-				</listitem>
-			</listbox>
+			<button style="main_button">
+				<placement x="%center_x%" y="%row13a_y%"/>
+				<text>Twrp Saves</text>
+				<action function="page">changeTwrpFolder</action>
+			</button>
+
+			<button style="main_button">
+				<placement x="%indent%" y="%row19_y%"/>
+				<text>{@reload_theme_btn=Reload Theme}</text>
+				<action function="reload"/>
+			</button>
 
 			<action>
 				<touch key="home"/>
@@ -4497,7 +4429,7 @@
 				<image resource="unlock_icon"/>
 				<placement x="%center_x%" y="%row10_y%" placement="4"/>
 			</image>
-
+			
 			<slider>
 				<text>{@swipe_to_unlock=Swipe to Unlock}</text>
 				<action function="overlay"/>
@@ -4525,7 +4457,7 @@
 			<template name="sort_options"/>
 
 			<fileselector>
-				<placement x="%indent%" y="%row3_y%" w="%content_width%" h="%fileselector_filemanager_height%"/>
+				<placement x="%indent%" y="420" w="%content_width%" h="%fileselector_filemanager_height%"/>
 				<text>%tw_file_location1%</text>
 				<filter folders="1" files="1"/>
 				<path name="tw_file_location1" default="/"/>
