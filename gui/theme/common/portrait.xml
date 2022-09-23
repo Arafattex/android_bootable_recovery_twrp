@@ -198,7 +198,7 @@
 					<action function="set">tw_action=queuezip</action>
 					<action function="set">tw_has_action2=1</action>
 					<action function="set">tw_action2=flash</action>
-					<action function="set">tw_action2_param=flash_zip2</action>
+					<action function="set">tw_action2_param=flash_zip</action>
 					<action function="set">tw_text1=Magisk will be installed.</action>
 					<action function="set">tw_text2=Try to install it?</action>
 					<action function="set">tw_slider_text=Swipe to Confirm</action>
@@ -215,7 +215,7 @@
 					<action function="set">tw_action=queuezip</action>
 					<action function="set">tw_has_action2=1</action>
 					<action function="set">tw_action2=flash</action>
-					<action function="set">tw_action2_param=flash_zip2</action>
+					<action function="set">tw_action2_param=flash_zip</action>
 					<action function="set">tw_text1=Convert your system as Enforce.</action>
 					<action function="set">tw_text2=Try to install it?</action>
 					<action function="set">tw_slider_text=Swipe to Confirm</action>
@@ -232,7 +232,7 @@
 					<action function="set">tw_action=queuezip</action>
 					<action function="set">tw_has_action2=1</action>
 					<action function="set">tw_action2=flash</action>
-					<action function="set">tw_action2_param=flash_zip2</action>
+					<action function="set">tw_action2_param=flash_zip</action>
 					<action function="set">tw_text1=Disable Dm-Verity and ForceEncrypt.</action>
 					<action function="set">tw_text2=Try to install it?</action>
 					<action function="set">tw_slider_text=Swipe to Confirm</action>
@@ -249,7 +249,7 @@
 					<action function="set">tw_action=queuezip</action>
 					<action function="set">tw_has_action2=1</action>
 					<action function="set">tw_action2=flash</action>
-					<action function="set">tw_action2_param=flash_zip2</action>
+					<action function="set">tw_action2_param=flash_zip</action>
 					<action function="set">tw_text1=Flash it after convert your data to f2fs.</action>
 					<action function="set">tw_text2=You can also convert your cache to f2fs.</action>
 					<action function="set">tw_slider_text=Swipe to Confirm</action>
@@ -266,7 +266,7 @@
 					<action function="set">tw_action=queuezip</action>
 					<action function="set">tw_has_action2=1</action>
 					<action function="set">tw_action2=flash</action>
-					<action function="set">tw_action2_param=flash_zip2</action>
+					<action function="set">tw_action2_param=flash_zip</action>
 					<action function="set">tw_text1=Flash it to start Aroma Filr Manager.</action>
 					<action function="set">tw_text2=Flash to use it.</action>
 					<action function="set">tw_slider_text=Swipe to Confirm</action>
@@ -283,7 +283,7 @@
 					<action function="set">tw_action=queuezip</action>
 					<action function="set">tw_has_action2=1</action>
 					<action function="set">tw_action2=flash</action>
-					<action function="set">tw_action2_param=flash_zip2</action>
+					<action function="set">tw_action2_param=flash_zip</action>
 					<action function="set">tw_text1=After flash you can modify system files.</action>
 					<action function="set">tw_text2=Try to install it?</action>
 					<action function="set">tw_slider_text=Swipe to Confirm</action>
@@ -300,7 +300,7 @@
 					<action function="set">tw_action=queuezip</action>
 					<action function="set">tw_has_action2=1</action>
 					<action function="set">tw_action2=flash</action>
-					<action function="set">tw_action2_param=flash_zip2</action>
+					<action function="set">tw_action2_param=flash_zip</action>
 					<action function="set">tw_text1=Remove pin/password from system.</action>
 					<action function="set">tw_text2=Try to install it?</action>
 					<action function="set">tw_slider_text=Swipe to Confirm</action>
@@ -317,7 +317,7 @@
 					<action function="set">tw_action=queuezip</action>
 					<action function="set">tw_has_action2=1</action>
 					<action function="set">tw_action2=flash</action>
-					<action function="set">tw_action2_param=flash_zip2</action>
+					<action function="set">tw_action2_param=flash_zip</action>
 					<action function="set">tw_text1=Aroma Magisk Manager.</action>
 					<action function="set">tw_text2=Flash to use it.</action>
 					<action function="set">tw_slider_text=Swipe to Confirm</action>
@@ -334,7 +334,7 @@
 					<action function="set">tw_action=queuezip</action>
 					<action function="set">tw_has_action2=1</action>
 					<action function="set">tw_action2=flash</action>
-					<action function="set">tw_action2_param=flash_zip2</action>
+					<action function="set">tw_action2_param=flash_zip</action>
 					<action function="set">tw_text1=Convert your system as Permissive.</action>
 					<action function="set">tw_text2=Try to install it?</action>
 					<action function="set">tw_slider_text=Swipe to Confirm</action>
@@ -351,7 +351,7 @@
 					<action function="set">tw_action=queuezip</action>
 					<action function="set">tw_has_action2=1</action>
 					<action function="set">tw_action2=flash</action>
-					<action function="set">tw_action2_param=flash_zip2</action>
+					<action function="set">tw_action2_param=flash_zip</action>
 					<action function="set">tw_text1=In MIUI rom disable replace of TWRP.</action>
 					<action function="set">tw_text2=Try to install it?</action>
 					<action function="set">tw_slider_text=Swipe to Confirm</action>
@@ -368,7 +368,7 @@
 					<action function="set">tw_action=queuezip</action>
 					<action function="set">tw_has_action2=1</action>
 					<action function="set">tw_action2=flash</action>
-					<action function="set">tw_action2_param=flash_zip2</action>
+					<action function="set">tw_action2_param=flash_zip</action>
 					<action function="set">tw_text1=It will Backup your IMEI.</action>
 					<action function="set">tw_text2=Never share it with anyone.</action>
 					<action function="set">tw_slider_text=Swipe to Confirm</action>
@@ -385,7 +385,7 @@
 					<action function="set">tw_action=queuezip</action>
 					<action function="set">tw_has_action2=1</action>
 					<action function="set">tw_action2=flash</action>
-					<action function="set">tw_action2_param=flash_zip2</action>
+					<action function="set">tw_action2_param=flash_zip</action>
 					<action function="set">tw_text1=Patch your vbmeta.</action>
 					<action function="set">tw_text2=Try to install it?</action>
 					<action function="set">tw_slider_text=Swipe to Confirm</action>
