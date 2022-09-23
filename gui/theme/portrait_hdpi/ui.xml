@@ -308,14 +308,6 @@
 			</button>
 
 			<button>
-				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
-				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
-				<image resource="console"/>
-				<condition var1="tw_busy" var2="0"/>
-				<action function="overlay">slideout</action>
-			</button>
-
-			<button>
 				<placement x="%center_x%" y="%navbar_btn_y%" placement="4"/>
 				<image resource="home"/>
 				<condition var1="tw_busy" var2="0"/>
@@ -327,7 +319,7 @@
 				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
 				<image resource="console"/>
 				<condition var1="tw_busy" var2="0"/>
-				<action function="overlay">slideout</action>
+				<action function="page">slideout</action>
 			</button>
 
 			<button>
