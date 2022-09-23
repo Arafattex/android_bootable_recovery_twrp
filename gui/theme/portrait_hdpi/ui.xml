@@ -347,6 +347,20 @@
 				<touch key="power+voldown"/>
 				<action function="screenshot"/>
 			</action>
+			
+			<action>
+				<touch key="volup"/>
+				<action function="cmd">
+echo 200 > /sys/class/leds/flashlight/brightness
+				</action>
+			</action>
+
+			<action>
+				<touch key="voldown"/>
+				<action function="cmd">
+echo 0 > /sys/class/leds/flashlight/brightness
+				</action>
+			</action>
 		</template>
 
 		<template name="progress_bar">
