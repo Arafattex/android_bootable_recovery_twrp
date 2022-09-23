@@ -179,7 +179,7 @@
 
 			<text style="text_l">
 				<placement x="%col1_x_header%" y="%row3_header_y%"/>
-				<text>Addons By shas45558</text>
+				<text>Addons</text>
 			</text>
 
 			<text style="text_m">
@@ -5528,28 +5528,77 @@
 		</page>
 
 		<page name="slideout">
-			<fill color="%background_color%">
-				<placement x="0" y="%row2_header_y%" w="%screen_width%" h="%slideout_bg_height%"/>
-			</fill>
+			<template name="page"/>
+			<text style="text_l">
+				<placement x="%col1_x_header%" y="%row3_header_y%"/>
+				<text>Essential</text>
+			</text>
+			
+			<text style="text_m">
+				<condition var1="tw_no_cpu_temp" var2="0"/>
+				<placement x="%col1_x_header%" y="%row4_header_y%"/>
+				<text>By shas45558</text>
+			</text>
 
 			<console>
-				<placement x="%indent%" y="%row3_header_y%" w="%content_width%" h="%slideout_height%"/>
+				<placement x="%indent%" y="%row2a_y%" w="%content_width%" h="700"/>
 			</console>
-
-			<button>
-				<fill color="%transparent%"/>
-				<placement x="0" y="%navbar_y%" w="%screen_width%" h="%navbar_height%"/>
-				<action function="overlay"/>
+			<button style="main_button_half_height">
+				<placement x="36" y="1149"/>
+				<text>Flashlight ON</text>
+				<action function="cmd">
+echo 200 > /sys/class/leds/flashlight/brightness
+				</action>
 			</button>
+			
+			<text style="text_m">
+				<placement x="116" y="1350"/>
+				<text>Or press Volup</text>
+			</text>
+			
+			<button style="main_button_half_height">
+				<placement x="557" y="1149"/>
+				<text>Flashlight OFF</text>
+				<action function="cmd">
+echo 0 > /sys/class/leds/flashlight/brightness
+				</action>
+			</button>
+			
+			<text style="text_m">
+				<placement x="637" y="1350"/>
+				<text>Or press Voldown</text>
+			</text>
+			
+			<slidervalue>
+				<condition var1="tw_has_brightnesss_file" var2="1"/>
+				<placement x="indent" y="%row21_y%" w="%content_width%"/>
+				<text>{@screen_bright_slider=Brightness: %tw_brightness_pct%%}</text>
+				<data variable="tw_brightness_pct" min="10" max="100"/>
+				<actions>
+					<action function="set">tw_brightness=%tw_brightness_max%</action>
+					<action function="compute">tw_brightness*%tw_brightness_pct%</action>
+					<action function="compute">tw_brightness/100</action>
+					<action function="setbrightness">%tw_brightness%</action>
+				</actions>
+			</slidervalue>
+			<action>
+				<touch key="back"/>
+				<action function="page">main</action>
+			</action>
 
+			<action>
+				<touch key="home"/>
+				<action function="page">main</action>
+			</action>
+			
 			<action>
 				<touch key="power"/>
 				<action function="togglebacklight"/>
 			</action>
-
+			
 			<action>
-				<touch key="power+voldown"/>
-				<action function="screenshot"/>
+				<touch key="power+voldown" />
+				<action function="screenshot" />
 			</action>
 		</page>
 
