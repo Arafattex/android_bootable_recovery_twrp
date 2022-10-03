@@ -18,8 +18,12 @@ on early-init
     chmod 444 /linkerconfig/ld.config.txt
 
     start ueventd
-
+    start adbd
     setprop sys.usb.configfs 0
+    setprop service.adb.root 1
+    setprop sys.usb.config adb
+    
+    
 
 on init
     export PATH /sbin:/system/bin
