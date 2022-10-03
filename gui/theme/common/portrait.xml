@@ -4018,8 +4018,11 @@
 
 			<button style="main_button">
 				<placement x="%center_x%" y="%row13a_y%"/>
-				<text>Twrp Saves</text>
-				<action function="page">changeTwrpFolder</action>
+				<text>{@decrypt_users=Decrypt Users}</text>
+				<actions>
+					<action function="set">tw_crypto_user_id=</action>
+					<action function="page">decrypt_users</action>
+				</actions>
 			</button>
 
 			<button style="main_button">
