@@ -1232,10 +1232,10 @@ void TWPartition::Setup_Data_Media() {
 			Symlink_Mount_Point = "/sdcard";
 		}
 		Mount(false);
-		if (TWFunc::Path_Exists(Mount_Point + "/media/0")) {
-			Storage_Path = Mount_Point + "/media/0";
+		if (TWFunc::Path_Exists(Mount_Point + "/media")) {
+			Storage_Path = Mount_Point + "/media";
 			Symlink_Path = Storage_Path;
-			DataManager::SetValue(TW_INTERNAL_PATH, Mount_Point + "/media/0");
+			DataManager::SetValue(TW_INTERNAL_PATH, Mount_Point + "/media");
 			UnMount(true);
 		}
 		DataManager::SetValue("tw_has_internal", 1);
@@ -1273,8 +1273,8 @@ void TWPartition::Setup_Data_Media() {
 				break;
 			}
 		}
-		if (Mount(true) && TWFunc::Path_Exists(Mount_Point + "/media/0")) {
-			Storage_Path = Mount_Point + "/media/0";
+		if (Mount(true) && TWFunc::Path_Exists(Mount_Point + "/media")) {
+			Storage_Path = Mount_Point + "/media";
 			Symlink_Path = Storage_Path;
 			UnMount(true);
 		}
