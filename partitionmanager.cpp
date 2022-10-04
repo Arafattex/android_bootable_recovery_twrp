@@ -1822,8 +1822,8 @@ void TWPartitionManager::Post_Decrypt(const string& Block_Device) {
 			LOGERR("Unable to mount /data after decryption");
 		}
 
-		if (dat->Has_Data_Media && TWFunc::Path_Exists("/data/media/0")) {
-			dat->Storage_Path = "/data/media/0";
+		if (dat->Has_Data_Media && TWFunc::Path_Exists("/data/media")) {
+			dat->Storage_Path = "/data/media";
 		} else {
 			dat->Storage_Path = "/data/media";
 		}
