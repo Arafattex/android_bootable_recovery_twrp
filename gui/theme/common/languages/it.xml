@@ -20,9 +20,9 @@
 		<string name="cache">Cache</string>
 		<string name="data">Data</string>
 		<string name="data_backup">Data (escl. archivio)</string>
-		<string name="sdcard">Scheda SD</string>
+		<string name="sdcard">SDCard</string>
 		<string name="internal">Archivio interno</string>
-		<string name="microsd">Scheda Micro SD</string>
+		<string name="microsd">Micro SD</string>
 		<string name="usbotg">USB OTG</string>
 		<string name="android_secure">Android Secure</string>
 		<string name="dalvik">Dalvik / ART Cache</string>
@@ -283,7 +283,6 @@
 		<string name="rb_recovery_btn">Recovery</string>
 		<string name="rb_bootloader_btn">Bootloader</string>
 		<string name="rb_download_btn">Download</string>
-		<string name="rb_edl_btn">EDL</string>
 		<string name="turning_off">Spegnimento in corso...</string>
 		<string name="swipe_power_off">Scorri per spegnere</string>
 		<string name="swipe_power_off_s">Spegni</string>
@@ -476,13 +475,20 @@
 		<string name="fixing_contexts">Ripristino dei contesti in corso...</string>
 		<string name="fix_contexts_complete">Ripristino dei contesti completato</string>
 		<string name="reboot_hdr">Riavvio</string>
-		<string name="install_cancel">Non installare</string>
+		<string name="su_hdr">Verifica SuperSU</string>
+		<string name="su_note1">Il tuo dispositivo non sembra disporre di accesso root.</string>
+		<string name="su_note2">Installare SuperSU ora?</string>
+		<string name="su_note3">Ciò ti garantirà privilegi di root.</string>
+		<string name="su_cancel">Non installare</string>
+		<string name="swipe_su_to_install">Scorri per installare</string>
+		<string name="swipe_su_install">   Installa</string>
+		<string name="su_installing">Installazione di SuperSU in corso...</string>
 		<string name="sel_storage_list">Scegli archivio</string>
 		<string name="ok_btn">OK</string>
 
 		<!-- Various console messages - these consist of user displayed messages, oftentimes errors -->
 		<string name="no_kernel_selinux">Il kernel non supporta la lettura dei contesti SELinux.</string>
-		<string name="full_selinux">Supporto per SELinux completo presente.</string>
+		<string name="full_selinux">Supporto per SELinux completo non presente.</string>
 		<string name="no_selinux">Nessun supporto per SELinux (libselinux assente).</string>
 		<string name="mtp_enabled">MTP abilitato</string>
 		<string name="mtp_crash">MTP si è arrestato. Non sarà più inizializzato all'avvio.</string>

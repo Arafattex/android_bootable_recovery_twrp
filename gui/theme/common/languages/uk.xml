@@ -266,7 +266,6 @@
 		<string name="rb_recovery_btn">Рекавері</string>
 		<string name="rb_bootloader_btn">Завантажувач</string>
 		<string name="rb_download_btn">Режим завантаження</string>
-		<string name="rb_edl_btn">EDL</string>
 		<string name="turning_off">Вимкнення...</string>
 		<string name="swipe_power_off">Вимкнути</string>
 		<string name="swipe_power_off_s">Вимкнення</string>
@@ -457,7 +456,14 @@
 		<string name="fixing_contexts">Виправлення контексту...</string>
 		<string name="fix_contexts_complete">Виправлення контексту завершено</string>
 		<string name="reboot_hdr">Перезавантаження</string>
-		<string name="install_cancel">Не встановлювати</string>
+		<string name="su_hdr">Перевірити SuperSU</string>
+		<string name="su_note1">Пристрій не має рут.</string>
+		<string name="su_note2">Встановити SuperSU зараз?</string>
+		<string name="su_note3">Пристрій буде рутовано.</string>
+		<string name="su_cancel">Не встановлювати</string>
+		<string name="swipe_su_to_install">Встановити</string>
+		<string name="swipe_su_install">   Встановлення</string>
+		<string name="su_installing">Встановлення SuperSU</string>
 		<string name="sel_storage_list">Вибір сховища</string>
 
 		<!-- Various console messages - these consist of user displayed messages, oftentimes errors -->
