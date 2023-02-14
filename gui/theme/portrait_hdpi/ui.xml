@@ -1,12 +1,12 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <recovery>
 	<details>
 		<resolution width="1080" height="1920"/>
-		<author>TeamWin</author>
-		<title>Backup Naowz</title>
-		<description>Default basic theme</description>
+		<author>G.M.L.</author>
+		<title>XDA Developers</title>
+		<description>XDA Developers</description>
 		<preview>preview.png</preview>
-		<themeversion>{themeversion}</themeversion>
+		<themeversion>3</themeversion>
 	</details>
 
 	<include>
@@ -14,134 +14,182 @@
 	</include>
 
 	<resources>
-		<font name="font_l" filename="RobotoCondensed-Regular.ttf" size="54"/>
+		<font name="console" filename="DroidSansMono.ttf" size="38"/>
+		<font name="font_l" filename="RobotoCondensed-Regular.ttf" size="50"/>
 		<font name="font_m" filename="RobotoCondensed-Regular.ttf" size="42"/>
-		<font name="font_s" filename="RobotoCondensed-Regular.ttf" size="36"/>
-		<font name="fixed" filename="DroidSansMono.ttf" size="30"/>
+		<font name="font_s" filename="RobotoCondensed-Regular.ttf" size="42"/>
+		<font name="fixed" filename="DroidSansMono.ttf" size="40"/>
+		<font name="time" filename="DroidSansMono.ttf" size="100" fallback="Roboto-Condensed-40" />
+		<font name="keylabel" filename="RobotoCondensed-Regular.ttf" size="50"/>
+		<font name="keylabel-small" filename="RobotoCondensed-Regular.ttf" size="40"/>
+		<font name="keylabel-longpress" filename="RobotoCondensed-Regular.ttf" size="40"/>
 
-		<font name="keylabel" filename="RobotoCondensed-Regular.ttf" size="64"/>
-		<font name="keylabel-small" filename="RobotoCondensed-Regular.ttf" size="46"/>
-		<font name="keylabel-longpress" filename="RobotoCondensed-Regular.ttf" size="32"/>
-
-		<image name="logo" filename="logo" retainaspect="1"/>
+		<animation name="progress" filename="indeterminate"/>
+		<animation name="xdasplash" filename="xda"/>
+		<image name="append_date" filename="append_date"/>
+		<image name="back" filename="back"/>
+		<image name="background_fmo" filename="background_fmo"/>
+		<image name="backspace" filename="backspace"/>
+		<image name="button_f" filename="button_f"/>
+		<image name="button_t" filename="button_t"/>
+		<image name="checkbox_false" filename="checkbox_false"/>
+		<image name="checkbox_true" filename="checkbox_true"/>
+		<image name="console" filename="console"/>
+		<image name="cursor" filename="cursor"/>
+		<image name="db_empty" filename="db_empty"/>
+		<image name="db_hl" filename="db_hl"/>
+		<image name="dialog_bg" filename="dialog_bg"/>
+		<image name="enter" filename="enter"/>
+		<image name="fab_close" filename="fab_close"/>
+		<image name="fab_selectfolder" filename="fab_selectfolder"/>
+		<image name="file" filename="file"/>
+		<image name="file_manager_page" filename="file_manager_page"/>
+		<image name="file_manager_page" filename="file_manager_page"/>
+		<image name="folder" filename="folder"/>
+		<image name="handle" filename="handle"/>
+		<image name="home" filename="home"/>
+		<image name="icon_about" filename="icon_about"/>
+		<image name="icon_creator" filename="icon_creator"/>
+		<image name="icon_credits" filename="icon_credits"/>
+		<image name="icon_date" filename="icon_date"/>
+		<image name="icon_theme" filename="icon_theme"/>
+		<image name="kb_arrow_down" filename="kb_arrow_down"/>
+		<image name="kb_arrow_left" filename="kb_arrow_left"/>
+		<image name="kb_arrow_right" filename="kb_arrow_right"/>
+		<image name="kb_arrow_up" filename="kb_arrow_up"/>
+		<image name="kb_hide" filename="kb_hide"/>
+		<image name="kb_show" filename="kb_show"/>
+		<image name="keyboard_background" filename="keyboard_background"/>
 		<image name="main_button" filename="main_button"/>
+		<image name="main_button_fmo" filename="main_button_fmo"/>
+		<image name="main_button_h" filename="main_button_h"/>
 		<image name="main_button_half_height" filename="main_button_half_height"/>
 		<image name="main_button_half_height_full_width" filename="main_button_half_height_full_width"/>
-		<image name="fab_selectfolder" filename="fab_selectfolder" retainaspect="1"/>
-		<image name="tab_3" filename="tab_3"/>
-		<image name="tab_4" filename="tab_4"/>
-		<image name="file" filename="file" retainaspect="1"/>
-		<image name="folder" filename="folder" retainaspect="1"/>
-		<image name="unlock_icon" filename="unlock_icon" retainaspect="1"/>
-		<image name="home" filename="home" retainaspect="1"/>
-		<image name="back" filename="back" retainaspect="1"/>
-		<image name="console" filename="console" retainaspect="1"/>
-		<image name="kb_hide" filename="kb_hide" retainaspect="1"/>
-		<image name="kb_show" filename="kb_show" retainaspect="1"/>
-		<image name="checkbox_false" filename="checkbox_false" retainaspect="1"/>
-		<image name="checkbox_true" filename="checkbox_true" retainaspect="1"/>
-		<image name="radio_false" filename="radio_false" retainaspect="1"/>
-		<image name="radio_true" filename="radio_true" retainaspect="1"/>
+		<image name="main_button_m" filename="main_button_m"/>
+		<image name="main_button_reboot" filename="main_button_reboot"/>
+		<image name="progress_empty" filename="progress_empty"/>
+		<image name="progress_full" filename="progress_fill"/>
+		<image name="radio_false" filename="radio_false"/>
+		<image name="radio_true" filename="radio_true"/>
+		<image name="shift" filename="shift"/>
+		<image name="shift_fill" filename="shift_fill"/>
+		<image name="slider" filename="slider"/>
+		<image name="slider_touch" filename="slider_touch"/>
+		<image name="slider_used" filename="slider_used"/>
 		<image name="sort_asc" filename="sort_asc"/>
 		<image name="sort_desc" filename="sort_desc"/>
 		<image name="sort_empty" filename="sort_empty"/>
-		<animation name="progress" filename="indeterminate"/>
-		<image name="progress_empty" filename="progress_empty"/>
-		<image name="progress_full" filename="progress_fill"/>
-		<image name="slider" filename="slider"/>
-		<image name="slider_used" filename="slider_used"/>
-		<image name="slider_touch" filename="slider_touch"/>
-		<image name="handle" filename="handle"/>
-		<image name="cursor" filename="cursor" retainaspect="1"/>
-		<image name="tab_general" filename="tab_general" retainaspect="1"/>
-		<image name="tab_timezone" filename="tab_timezone" retainaspect="1"/>
-		<image name="tab_display" filename="tab_display" retainaspect="1"/>
-		<image name="tab_vibration" filename="tab_vibration" retainaspect="1"/>
-		<image name="tab_language" filename="tab_language" retainaspect="1"/>
-
-		<image name="backspace" filename="backspace" retainaspect="1"/>
-		<image name="enter" filename="enter" retainaspect="1"/>
-		<image name="shift" filename="shift" retainaspect="1"/>
-		<image name="shift_fill" filename="shift_fill" retainaspect="1"/>
-		<image name="space" filename="space" retainaspect="1"/>
-		<image name="kb_arrow_left" filename="kb_arrow_left" retainaspect="1"/>
-		<image name="kb_arrow_right" filename="kb_arrow_right" retainaspect="1"/>
-		<image name="kb_arrow_up" filename="kb_arrow_up" retainaspect="1"/>
-		<image name="kb_arrow_down" filename="kb_arrow_down" retainaspect="1"/>
+		<image name="space" filename="space"/>
+		<image name="splashwall" filename="splashwall"/>
+		<image name="tab_3" filename="tab_3"/>
+		<image name="tab_4" filename="tab_4"/>
+		<image name="terminal_background" filename="terminal_background"/>
+		<image name="trigger_settings" filename="trigger_settings"/>
+	    <image name="slideout_background" filename="slideout_background"/>
+        <image name="advanced_page" filename="advanced_page"/>
+        <image name="background" filename="background"/>
+        <image name="main_menu_page" filename="main_menu_page"/>
+        <image name="reboot_page" filename="reboot_page"/>
+        <image name="settings_page" filename="settings_page"/>
+        <image name="theme_info_page" filename="theme_info_page"/>
 	</resources>
 
 	<variables>
-		<variable name="tw_samsung_navbar" value="0" persist="1"/>
-
-		<variable name="tw_hide_kb" value="0"/>
-		<variable name="screen_width" value="1080"/>
-		<variable name="screen_height" value="1920"/>
-		<variable name="status_height" value="72"/>
-		<variable name="header_height" value="256"/>
-		<variable name="navbar_height" value="130"/>
-		<variable name="content_width" value="1008"/>
-		<variable name="content_overlay_width" value="936"/>
-		<variable name="dialog_height" value="704"/>
+		<variable name="ab1_btn1_x" value="944"/>
+		<variable name="ab1_y" value="310"/>
+		<variable name="ab2_y" value="100"/>
+		<variable name="ab_back_x" value="12"/>
+		<variable name="ab_bc_y" value="114"/>
+		<variable name="ab_btn1_x" value="924"/>
+		<variable name="ab_y" value="84"/>
+		<variable name="accent_color" value="#ffffff00"/>
+		<variable name="accent_color_semitransparent" value="#ffffff00"/>
+		<variable name="accent_color_theme" value="#c80101"/>
 		<variable name="back_button_x" value="240"/>
-		<variable name="console_button_x" value="840"/>
-		<variable name="indent" value="36"/>
-		<variable name="col1_x_left" value="72"/>
-		<variable name="col1_x_header" value="184"/>
-		<variable name="center_x" value="540"/>
-		<variable name="col1_x_right" value="576"/>
-		<variable name="indent_right" value="1044"/>
-		<variable name="tab_height" value="96"/>
-		<variable name="tab_indicator_height" value="6"/>
-		<variable name="tab_y" value="304"/>
-		<variable name="tab3_width" value="360"/>
-		<variable name="tab4_width" value="270"/>
-		<variable name="tab5_width" value="216"/>
-		<variable name="tab3_col2_x" value="360"/>
-		<variable name="tab3_col3_x" value="720"/>
-		<variable name="tab4_col2_x" value="270"/>
-		<variable name="tab4_col4_x" value="810"/>
-		<variable name="tab5_col2_x" value="216"/>
-		<variable name="tab5_col3_x" value="432"/>
-		<variable name="tab5_col4_x" value="648"/>
-		<variable name="tab5_col5_x" value="864"/>
-		<variable name="tab5_centered_col1_x" value="108"/>
-		<variable name="tab5_centered_col2_x" value="324"/>
-		<variable name="tab5_centered_col4_x" value="756"/>
-		<variable name="tab5_centered_col5_x" value="972"/>
+		<variable name="background_color" value="#00000000"/>
+		<variable name="background_color_theme" value="#000000"/>
+		<variable name="battery_right" value="890"/>
+		<variable name="battery_up" value="15"/>
+		<variable name="bookmark" value="0" persist="1"/>
+		<variable name="btn1_row" value="435"/>
+		<variable name="btn2_row" value="713"/>
 		<variable name="btn3_col2_x" value="384"/>
 		<variable name="btn3_col3_x" value="732"/>
+		<variable name="btn3_col3_x_r" value="768"/>
+		<variable name="btn3_row" value="991"/>
 		<variable name="btn4_col2_x" value="297"/>
 		<variable name="btn4_col3_x" value="558"/>
 		<variable name="btn4_col4_x" value="819"/>
-		<variable name="status_topalign_header_y" value="4"/>
-		<variable name="status_centeralign_header_y" value="15"/>
-		<variable name="status_bottomalign_header_y" value="30"/>
-		<variable name="row1_header_y" value="{statusicons_align}"/>
-		<variable name="row2_header_y" value="72"/>
-		<variable name="row3_header_y" value="90"/>
-		<variable name="row4_header_y" value="168"/>
-		<variable name="row1_y" value="256"/>
-		<variable name="row1a_y" value="288"/>
-		<variable name="row2_y" value="320"/>
-		<variable name="row2a_y" value="352"/>
-		<variable name="row_tab_y" value="346"/>
-		<variable name="row2_input_y" value="381"/>
-		<variable name="row3_y" value="384"/>
-		<variable name="row3_input_y" value="413"/>
-		<variable name="row3a_y" value="416"/>
-		<variable name="row4_y" value="448"/>
-		<variable name="row4_input_y" value="477"/>
-		<variable name="row4a_y" value="480"/>
-		<variable name="row5_y" value="512"/>
-		<variable name="row5a_y" value="544"/>
-		<variable name="row6_y" value="576"/>
-		<variable name="row6a_y" value="608"/>
-		<variable name="row7_y" value="640"/>
-		<variable name="row7a_y" value="672"/>
-		<variable name="row8_y" value="704"/>
-		<variable name="row8a_y" value="736"/>
-		<variable name="row9_y" value="768"/>
-		<variable name="row9a_y" value="800"/>
+		<variable name="btn4_row" value="1269"/>
+		<variable name="btn5_row" value="1031"/>
+		<variable name="btn6_row" value="1205"/>
+		<variable name="btn7_row" value="1379"/>
+		<variable name="btn8_row" value="1553"/>
+		<variable name="btn_float_x" value="852"/>
+		<variable name="caps_highlight_color" value="#22222280"/>
+		<variable name="center_x" value="540"/>
+		<variable name="col1_x" value="124"/>
+		<variable name="col1_x_header" value="184"/>
+		<variable name="col1_x_indent" value="216"/>
+		<variable name="col1_x_left" value="124"/>
+		<variable name="col1_x_right" value="576"/>
+		<variable name="console_button_x" value="840"/>
+		<variable name="console_height" value="960"/>
+		<variable name="console_terminal_height" value="950"/>
+		<variable name="content_overlay_width" value="936"/>
+		<variable name="content_width" value="1008"/>
+		<variable name="content_width2" value="876"/>
+		<variable name="cpu_color" value="#ffffff"/>
+		<variable name="current_date" value="0" persist="1"/>
+		<variable name="dialog_button_x" value="696"/>
+		<variable name="dialog_height" value="704"/>
+		<variable name="error" value="#FF0101"/>
+		<variable name="fileselector_filemanager_height" value="1376"/>
+		<variable name="fileselector_highlight_color" value="#555555"/>
+		<variable name="fileselector_install_height" value="1152"/>
+		<variable name="fileselector_linecolor" value="#ffffff00"/>
+		<variable name="fileselector_linecolor2" value="#c80101"/>
+		<variable name="fileselector_separatorheight" value="2"/>
+		<variable name="fileselector_spacing" value="0"/>
+		<variable name="header_color" value="#006FFF"/>
+		<variable name="header_height" value="256"/>
+		<variable name="highlight" value="#ffffff"/>
+		<variable name="highlight_color" value="#ffffff00"/>
+		<variable name="indent" value="36"/>
+		<variable name="indent_down" value="1728"/>
+		<variable name="indent_down_left" value="36"/>
+		<variable name="indent_l" value="0"/>
+		<variable name="indent_main_button" value="580"/>
+		<variable name="indent_main_button_c" value="300"/>
+		<variable name="indent_right" value="1070"/>
+		<variable name="indeter" value="1376" />
+		<variable name="input_color" value="#ffffff"/>
+		<variable name="input_height" value="64"/>
+		<variable name="input_line_width" value="3"/>
+		<variable name="keyboard_terminal_y" value="1053"/>
+		<variable name="keyboard_y" value="1149"/>
+		<variable name="list_font" value="small" persist="1"/>
+		<variable name="listbox_settings_height" value="960"/>
+		<variable name="listbox_timezone_height" value="756"/>
+		<variable name="location_addfile" value="/sdcard/Download" persist="1"/>
+		<variable name="location_install" value="/sdcard/Download" persist="1"/>
+		<variable name="location_install_image" value="/sdcard/Download" persist="1"/>
+		<variable name="location_install_splash_image" value="/sdcard/Download" persist="1"/>
+		<variable name="location_install_splash_png" value="/sdcard/Download" persist="1"/>
+		<variable name="location_themes" value="/sdcard/Download" persist="1"/>
+		<variable name="navbar_btn_y" value="1856"/>
+		<variable name="navbar_height" value="130"/>
+		<variable name="navbar_y" value="1792"/>
+		<variable name="partitionlist_backup_height" value="768"/>
+		<variable name="partitionlist_flashimage_height" value="544"/>
+		<variable name="partitionlist_mount_height" value="832"/>
+		<variable name="partitionlist_spacing" value="0"/>
+		<variable name="partitionlist_storage_height" value="544"/>
+		<variable name="partitionlist_wipe_height" value="1088"/>
+		<variable name="pattern_dot_dia" value="32"/>
+		<variable name="pattern_line_w" value="12"/>
+		<variable name="pattern_size" value="828"/>
+		<variable name="pattern_x" value="126"/>
 		<variable name="row10_y" value="832"/>
 		<variable name="row10a_y" value="864"/>
 		<variable name="row11_y" value="896"/>
@@ -162,6 +210,11 @@
 		<variable name="row18a_y" value="1376"/>
 		<variable name="row19_y" value="1408"/>
 		<variable name="row19a_y" value="1440"/>
+		<variable name="row1_1_y" value="300"/>
+		<variable name="row1_2_y" value="360"/>
+		<variable name="row1_header_y" value="4"/>
+		<variable name="row1_y" value="256"/>
+		<variable name="row1a_y" value="288"/>
 		<variable name="row20_y" value="1472"/>
 		<variable name="row20a_y" value="1504"/>
 		<variable name="row21_y" value="1536"/>
@@ -173,63 +226,86 @@
 		<variable name="row24_y" value="1728"/>
 		<variable name="row24a_y" value="1760"/>
 		<variable name="row25_y" value="1792"/>
-		<variable name="navbar_y" value="1792"/>
-		<variable name="navbar_btn_y" value="1856"/>
-		<variable name="keyboard_y" value="1149"/>
-		<variable name="keyboard_terminal_y" value="1053"/>
-		<variable name="background_color" value="#1A1A1A"/>
-		<variable name="accent_color" value="#0090CA"/>
-		<variable name="accent_color_semitransparent" value="#0090CA30"/>
-		<variable name="text_color" value="#EEEEEE"/>
-		<variable name="text_button_color" value="#EEEEEE"/>
-		<variable name="text_success_color" value="#76FF03"/>
-		<variable name="text_fail_color" value="#FF0101"/>
-		<variable name="highlight_color" value="#1A1A1A80"/>
-		<variable name="caps_highlight_color" value="#22222280"/>
-		<variable name="transparent" value="#00000000"/>
+		<variable name="row2_2_y" value="540"/>
+		<variable name="row2_3_y" value="600"/>
+		<variable name="row2_header_y" value="72"/>
+		<variable name="row2_input_y" value="381"/>
+		<variable name="row2_y" value="320"/>
+		<variable name="row2a_y" value="352"/>
+		<variable name="row3_2_y" value="750"/>
+		<variable name="row3_3_y" value="810"/>
+		<variable name="row3_header_y" value="90"/>
+		<variable name="row3_input_y" value="413"/>
+		<variable name="row3_y" value="384"/>
+		<variable name="row3a_y" value="416"/>
+		<variable name="row4_2_y" value="900"/>
+		<variable name="row4_3_y" value="960"/>
+		<variable name="row4_header_y" value="168"/>
+		<variable name="row4_input_y" value="477"/>
+		<variable name="row4_y" value="448"/>
+		<variable name="row4a_y" value="480"/>
+		<variable name="row5_1_y" value="1020"/>
+		<variable name="row5_2a_y" value="1110"/>
+		<variable name="row5_y" value="512"/>
+		<variable name="row5a_y" value="544"/>
+		<variable name="row6_1_y" value="1200"/>
+		<variable name="row6_3_y" value="1320"/>
+		<variable name="row6_y" value="576"/>
+		<variable name="row6a_y" value="608"/>
+		<variable name="row7_1_y" value="1380"/>
+		<variable name="row7_2a_y" value="1470"/>
+		<variable name="row7_3a_y" value="1620"/>
+		<variable name="row7_y" value="640"/>
+		<variable name="row7a_y" value="672"/>
+		<variable name="row8_1_y" value="1480"/>
+		<variable name="row8_y" value="704"/>
+		<variable name="row8a_y" value="736"/>
+		<variable name="row9_y" value="768"/>
+		<variable name="row9a_y" value="800"/>
+		<variable name="row_tab_y" value="346"/>
+		<variable name="screen_height" value="1920"/>
+		<variable name="screen_width" value="1080"/>
 		<variable name="semi_transparent" value="#00000099"/>
-		<variable name="warning" value="#F8F8A0"/>
-		<variable name="error" value="#FF0101"/>
-		<variable name="highlight" value="#0090CA"/>
-		<variable name="fileselector_linecolor" value="#555555"/>
-		<variable name="fileselector_highlight_color" value="#555555"/>
-		<variable name="fileselector_separatorheight" value="2"/>
-		<variable name="fileselector_spacing" value="0"/>
-		<variable name="fileselector_install_height" value="1152"/>
-		<variable name="fileselector_filemanager_height" value="1376"/>
-		<variable name="partitionlist_spacing" value="0"/>
-		<variable name="partitionlist_storage_height" value="544"/>
-		<variable name="partitionlist_flashimage_height" value="544"/>
-		<variable name="partitionlist_wipe_height" value="1088"/>
-		<variable name="partitionlist_mount_height" value="832"/>
-		<variable name="partitionlist_backup_height" value="768"/>
-		<variable name="listbox_timezone_height" value="756"/>
-		<variable name="listbox_settings_height" value="960"/>
-		<variable name="listbox_advanced_height" value="700"/>
-		<variable name="listbox_options_height" value="384"/>
-		<variable name="fastscroll_w" value="24"/>
-		<variable name="fastscroll_linew" value="2"/>
-		<variable name="fastscroll_rectw" value="24"/>
-		<variable name="fastscroll_recth" value="108"/>
+		<variable name="show_cpu_temp" value="0" persist="1"/>
+		<variable name="slideout_bg_height" value="1720"/>
+		<variable name="slideout_height" value="1686"/>
+		<variable name="slider_x" value="540" />
 		<variable name="slidervalue_lineh" value="3"/>
 		<variable name="slidervalue_padding" value="0"/>
-		<variable name="slidervalue_sliderw" value="72"/>
 		<variable name="slidervalue_sliderh" value="108"/>
-		<variable name="slideout_height" value="1686"/>
-		<variable name="slideout_bg_height" value="1720"/>
-		<variable name="input_height" value="64"/>
-		<variable name="input_line_width" value="3"/>
-		<variable name="console_height" value="960"/>
-		<variable name="console_terminal_height" value="950"/>
-		<variable name="dialog_button_x" value="696"/>
-		<variable name="pattern_x" value="126"/>
-		<variable name="pattern_dot_dia" value="32"/>
-		<variable name="pattern_line_w" value="12"/>
-		<variable name="pattern_size" value="828"/>
-		<variable name="tw_clock_12_pos_x" value="{clock_12_pos}"/>
-		<variable name="tw_clock_24_pos_x" value="{clock_24_pos}"/>
-		<variable name="tw_cpu_pos_x" value="{cpu_pos}"/>
-		<variable name="tw_battery_pos_x" value="{battery_pos}"/>
+		<variable name="slidervalue_sliderw" value="72"/>
+		<variable name="status_height" value="72"/>
+		<variable name="tab3_col2_x" value="360"/>
+		<variable name="tab3_col3_x" value="720"/>
+		<variable name="tab3_width" value="360"/>
+		<variable name="tab4_col2_x" value="270"/>
+		<variable name="tab4_col4_x" value="810"/>
+		<variable name="tab4_width" value="270"/>
+		<variable name="tab5_centered_col1_x" value="108"/>
+		<variable name="tab5_centered_col2_x" value="324"/>
+		<variable name="tab5_centered_col4_x" value="756"/>
+		<variable name="tab5_centered_col5_x" value="972"/>
+		<variable name="tab5_col2_x" value="216"/>
+		<variable name="tab5_col3_x" value="432"/>
+		<variable name="tab5_col4_x" value="648"/>
+		<variable name="tab5_col5_x" value="864"/>
+		<variable name="tab5_width" value="216"/>
+		<variable name="tab_height" value="96"/>
+		<variable name="tab_indicator_height" value="6"/>
+		<variable name="tab_y" value="304"/>
+		<variable name="tabtheme_height" value="85"/>
+		<variable name="text_button_color" value="#EEEEEE"/>
+		<variable name="text_color" value="#EEEEEE"/>
+		<variable name="text_fail_color" value="#FF0101"/>
+		<variable name="text_success_color" value="#76FF03"/>
+		<variable name="theme_date" value="28/01/18"/>
+		<variable name="theme_version" value="XDA Developers"/>
+		<variable name="themeheader_color" value="#ff0000"/>
+		<variable name="transparent" value="#00000000"/>
+		<variable name="tw_hide_kb" value="0"/>
+		<variable name="tw_samsung_navbar" value="0" persist="1"/>
+		<variable name="tw_theme_path" value="/data/media/0/TWRP/theme" persist="1"/>
+		<variable name="warning" value="#F8F8A0"/>
 	</variables>
 
 	<mousecursor>
@@ -240,24 +316,1448 @@
 
 	<templates>
 		<template name="page">
-			<background color="%background_color%"/>
+<image> 
+<image resource="background"/> 
+<placement y="0" x="0"/> 
+</image>
 
-			<fill color="%accent_color%">
-				<placement x="0" y="0" w="%screen_width%" h="%header_height%"/>
+			<fill color="#ffffff00">
+				<condition var1="tw_simulate_actions" var2="0"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
 			</fill>
 
+			<fill color="%text_fail_color%">
+				<condition var1="tw_simulate_actions" var2="1"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="0"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@twrp_watch_header=%tw_version%}</text>
+			</text>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="1"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@cpu_temp=CPU: %tw_cpu_temp% °C}</text>
+			</text>
+
+			<text color="%header_color%">
+				<font resource="font_m"/>
+				<placement x="%center_x%" y="%row1_header_y%" placement="5"/>
+				<text>%tw_time%</text>
+			</text>
+
+			<text color="%header_color%">
+				<conditions>
+					<condition var1="tw_no_battery_percent" var2="0"/>
+					<condition var1="tw_battery" op="&gt;" var2="0"/>
+					<condition var1="tw_battery" op="&lt;" var2="101"/>
+				</conditions>
+				<font resource="font_m"/>
+				<placement x="%indent_right%" y="%row1_header_y%" placement="1"/>
+				<text>{@battery_pct=Battery: %tw_battery%}</text>
+			</text>
+
 			<image>
-				<condition var1="tw_busy" var2="1"/>
-				<image resource="logo"/>
-				<placement x="0" y="0"/>
+				<placement x="%indent_down%" y="%indent_down_left%"/>
+				<image resource="main_button_half_height_full_width"/>
 			</image>
 
 			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
 				<condition var1="tw_busy" var2="0"/>
-				<placement x="0" y="0"/>
-				<image resource="logo"/>
+				<action function="key">back</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<placement x="%center_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="home"/>
+				<condition var1="tw_busy" var2="0"/>
 				<action function="key">home</action>
 			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+			
+			<action>
+				<touch key="power"/>
+				<action function="togglebacklight"/>
+			</action>
+
+			<action>
+				<touch key="power+voldown"/>
+				<action function="screenshot"/>
+			</action>
+		</template>
+		
+		<template name="page_m">
+		
+           <image> 
+               <image resource="opening_page"/> 
+               <placement y="0" x="0"/> 
+           </image>
+ 
+			<image>
+				<placement x="%indent_down%" y="%indent_down_left%"/>
+				<image resource="main_button_half_height_full_width"/>
+			</image>
+
+			<action>
+				<touch key="power"/>
+				<action function="togglebacklight"/>
+			</action>
+
+			<action>
+				<touch key="power+voldown"/>
+				<action function="screenshot"/>
+			</action>
+		</template>
+		
+		<template name="page_f">
+			
+		<image> 
+			<image resource="main_menu_page"/> 
+			<placement y="0" x="0"/> 
+		</image>
+
+			<image>
+				<placement x="%indent_down%" y="%indent_down_left%"/>
+				<image resource="main_button_half_height_full_width"/>
+			</image>
+			
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="0"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@twrp_watch_header=%tw_version%}</text>
+			</text>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="1"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@cpu_temp=CPU: %tw_cpu_temp% °C}</text>
+			</text>
+
+			<text color="%header_color%">
+				<font resource="font_m"/>
+				<placement x="%center_x%" y="%row1_header_y%" placement="5"/>
+				<text>%tw_time%</text>
+			</text>
+
+			<text color="%header_color%">
+				<conditions>
+					<condition var1="tw_no_battery_percent" var2="0"/>
+					<condition var1="tw_battery" op="&gt;" var2="0"/>
+					<condition var1="tw_battery" op="&lt;" var2="101"/>
+				</conditions>
+				<font resource="font_m"/>
+				<placement x="%indent_right%" y="%row1_header_y%" placement="1"/>
+				<text>{@battery_pct=Battery: %tw_battery%}</text>
+			</text>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<placement x="%center_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="home"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">home</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+			
+			<action>
+				<touch key="power"/>
+				<action function="togglebacklight"/>
+			</action>
+
+			<action>
+				<touch key="power+voldown"/>
+				<action function="screenshot"/>
+			</action>
+		</template>
+		
+		<template name="page_s">
+			
+		<image> 
+			<image resource="settings_page"/> 
+			<placement y="0" x="0"/> 
+		</image>
+
+			<image>
+				<placement x="%indent_down%" y="%indent_down_left%"/>
+				<image resource="main_button_half_height_full_width"/>
+			</image>
+			
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="0"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@twrp_watch_header=%tw_version%}</text>
+			</text>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="1"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@cpu_temp=CPU: %tw_cpu_temp% °C}</text>
+			</text>
+
+			<text color="%header_color%">
+				<font resource="font_m"/>
+				<placement x="%center_x%" y="%row1_header_y%" placement="5"/>
+				<text>%tw_time%</text>
+			</text>
+
+			<text color="%header_color%">
+				<conditions>
+					<condition var1="tw_no_battery_percent" var2="0"/>
+					<condition var1="tw_battery" op="&gt;" var2="0"/>
+					<condition var1="tw_battery" op="&lt;" var2="101"/>
+				</conditions>
+				<font resource="font_m"/>
+				<placement x="%indent_right%" y="%row1_header_y%" placement="1"/>
+				<text>{@battery_pct=Battery: %tw_battery%}</text>
+			</text>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<placement x="%center_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="home"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">home</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+			
+			<action>
+				<touch key="power"/>
+				<action function="togglebacklight"/>
+			</action>
+
+			<action>
+				<touch key="power+voldown"/>
+				<action function="screenshot"/>
+			</action>
+		</template>
+		
+		<template name="page_r">
+			
+		<image> 
+			<image resource="reboot_page"/> 
+			<placement y="0" x="0"/> 
+		</image>
+
+			<image>
+				<placement x="%indent_down%" y="%indent_down_left%"/>
+				<image resource="main_button_half_height_full_width"/>
+			</image>
+			
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="0"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@twrp_watch_header=%tw_version%}</text>
+			</text>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="1"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@cpu_temp=CPU: %tw_cpu_temp% °C}</text>
+			</text>
+
+			<text color="%header_color%">
+				<font resource="font_m"/>
+				<placement x="%center_x%" y="%row1_header_y%" placement="5"/>
+				<text>%tw_time%</text>
+			</text>
+
+			<text color="%header_color%">
+				<conditions>
+					<condition var1="tw_no_battery_percent" var2="0"/>
+					<condition var1="tw_battery" op="&gt;" var2="0"/>
+					<condition var1="tw_battery" op="&lt;" var2="101"/>
+				</conditions>
+				<font resource="font_m"/>
+				<placement x="%indent_right%" y="%row1_header_y%" placement="1"/>
+				<text>{@battery_pct=Battery: %tw_battery%}</text>
+			</text>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<placement x="%center_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="home"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">home</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+			
+			<action>
+				<touch key="power"/>
+				<action function="togglebacklight"/>
+			</action>
+
+			<action>
+				<touch key="power+voldown"/>
+				<action function="screenshot"/>
+			</action>
+		</template>
+		
+		<template name="page_a">
+			
+		<image> 
+			<image resource="advanced_page"/> 
+			<placement y="0" x="0"/> 
+		</image>
+
+			<image>
+				<placement x="%indent_down%" y="%indent_down_left%"/>
+				<image resource="main_button_half_height_full_width"/>
+			</image>
+			
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="0"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@twrp_watch_header=%tw_version%}</text>
+			</text>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="1"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@cpu_temp=CPU: %tw_cpu_temp% °C}</text>
+			</text>
+
+			<text color="%header_color%">
+				<font resource="font_m"/>
+				<placement x="%center_x%" y="%row1_header_y%" placement="5"/>
+				<text>%tw_time%</text>
+			</text>
+
+			<text color="%header_color%">
+				<conditions>
+					<condition var1="tw_no_battery_percent" var2="0"/>
+					<condition var1="tw_battery" op="&gt;" var2="0"/>
+					<condition var1="tw_battery" op="&lt;" var2="101"/>
+				</conditions>
+				<font resource="font_m"/>
+				<placement x="%indent_right%" y="%row1_header_y%" placement="1"/>
+				<text>{@battery_pct=Battery: %tw_battery%}</text>
+			</text>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<placement x="%center_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="home"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">home</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+			
+			<action>
+				<touch key="power"/>
+				<action function="togglebacklight"/>
+			</action>
+
+			<action>
+				<touch key="power+voldown"/>
+				<action function="screenshot"/>
+			</action>
+		</template>
+		
+		<template name="page_settings">
+<image> 
+<image resource="file_manager_page"/> 
+<placement y="0" x="0"/> 
+</image>
+
+				<fill color="#ffffff00">
+				<condition var1="tw_simulate_actions" var2="0"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+
+			<fill color="%text_fail_color%">
+				<condition var1="tw_simulate_actions" var2="1"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="0"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@twrp_watch_header=%tw_version%}</text>
+			</text>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="1"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@cpu_temp=CPU: %tw_cpu_temp% °C}</text>
+			</text>
+
+			<text color="%header_color%">
+				<font resource="font_m"/>
+				<placement x="%center_x%" y="%row1_header_y%" placement="5"/>
+				<text>%tw_time%</text>
+			</text>
+
+			<text color="%header_color%">
+				<conditions>
+					<condition var1="tw_no_battery_percent" var2="0"/>
+					<condition var1="tw_battery" op="&gt;" var2="0"/>
+					<condition var1="tw_battery" op="&lt;" var2="101"/>
+				</conditions>
+				<font resource="font_m"/>
+				<placement x="%indent_right%" y="%row1_header_y%" placement="1"/>
+				<text>{@battery_pct=Battery: %tw_battery%}</text>
+			</text>
+
+			<image>
+				<placement x="%indent_down%" y="%indent_down_left%"/>
+				<image resource="main_button_half_height_full_width"/>
+			</image>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<placement x="%center_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="home"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">home</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+			
+			<action>
+				<touch key="power"/>
+				<action function="togglebacklight"/>
+			</action>
+
+			<action>
+				<touch key="power+voldown"/>
+				<action function="screenshot"/>
+			</action>
+		</template>
+		
+		<template name="page_backup">
+<image> 
+<image resource="file_manager_page"/> 
+<placement y="0" x="0"/> 
+</image>
+
+			<fill color="#ffffff00">
+				<condition var1="tw_simulate_actions" var2="0"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+
+			<fill color="%text_fail_color%">
+				<condition var1="tw_simulate_actions" var2="1"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="0"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@twrp_watch_header=%tw_version%}</text>
+			</text>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="1"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@cpu_temp=CPU: %tw_cpu_temp% °C}</text>
+			</text>
+
+			<text color="%header_color%">
+				<font resource="font_m"/>
+				<placement x="%center_x%" y="%row1_header_y%" placement="5"/>
+				<text>%tw_time%</text>
+			</text>
+
+			<text color="%header_color%">
+				<conditions>
+					<condition var1="tw_no_battery_percent" var2="0"/>
+					<condition var1="tw_battery" op="&gt;" var2="0"/>
+					<condition var1="tw_battery" op="&lt;" var2="101"/>
+				</conditions>
+				<font resource="font_m"/>
+				<placement x="%indent_right%" y="%row1_header_y%" placement="1"/>
+				<text>{@battery_pct=Battery: %tw_battery%}</text>
+			</text>
+
+			<image>
+				<placement x="%indent_down%" y="%indent_down_left%"/>
+				<image resource="main_button_half_height_full_width"/>
+			</image>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<placement x="%center_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="home"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">home</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+			
+			<action>
+				<touch key="power"/>
+				<action function="togglebacklight"/>
+			</action>
+
+			<action>
+				<touch key="power+voldown"/>
+				<action function="screenshot"/>
+			</action>
+		</template>
+		
+		<template name="page_mount">
+<image> 
+<image resource="file_manager_page"/> 
+<placement y="0" x="0"/> 
+</image>
+
+			<fill color="#ffffff00">
+				<condition var1="tw_simulate_actions" var2="0"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+
+			<fill color="%text_fail_color%">
+				<condition var1="tw_simulate_actions" var2="1"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="0"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@twrp_watch_header=%tw_version%}</text>
+			</text>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="1"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@cpu_temp=CPU: %tw_cpu_temp% °C}</text>
+			</text>
+
+			<text color="%header_color%">
+				<font resource="font_m"/>
+				<placement x="%center_x%" y="%row1_header_y%" placement="5"/>
+				<text>%tw_time%</text>
+			</text>
+
+			<text color="%header_color%">
+				<conditions>
+					<condition var1="tw_no_battery_percent" var2="0"/>
+					<condition var1="tw_battery" op="&gt;" var2="0"/>
+					<condition var1="tw_battery" op="&lt;" var2="101"/>
+				</conditions>
+				<font resource="font_m"/>
+				<placement x="%indent_right%" y="%row1_header_y%" placement="1"/>
+				<text>{@battery_pct=Battery: %tw_battery%}</text>
+			</text>
+
+			<image>
+				<placement x="%indent_down%" y="%indent_down_left%"/>
+				<image resource="main_button_half_height_full_width"/>
+			</image>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<placement x="%center_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="home"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">home</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+			
+			<action>
+				<touch key="power"/>
+				<action function="togglebacklight"/>
+			</action>
+
+			<action>
+				<touch key="power+voldown"/>
+				<action function="screenshot"/>
+			</action>
+		</template>
+		
+		<template name="page_restore">
+<image> 
+<image resource="file_manager_page"/> 
+<placement y="0" x="0"/> 
+</image>
+
+				<fill color="#ffffff00">
+				<condition var1="tw_simulate_actions" var2="0"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+
+			<fill color="%text_fail_color%">
+				<condition var1="tw_simulate_actions" var2="1"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="0"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@twrp_watch_header=%tw_version%}</text>
+			</text>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="1"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@cpu_temp=CPU: %tw_cpu_temp% °C}</text>
+			</text>
+
+			<text color="%header_color%">
+				<font resource="font_m"/>
+				<placement x="%center_x%" y="%row1_header_y%" placement="5"/>
+				<text>%tw_time%</text>
+			</text>
+
+			<text color="%header_color%">
+				<conditions>
+					<condition var1="tw_no_battery_percent" var2="0"/>
+					<condition var1="tw_battery" op="&gt;" var2="0"/>
+					<condition var1="tw_battery" op="&lt;" var2="101"/>
+				</conditions>
+				<font resource="font_m"/>
+				<placement x="%indent_right%" y="%row1_header_y%" placement="1"/>
+				<text>{@battery_pct=Battery: %tw_battery%}</text>
+			</text>
+
+			<image>
+				<placement x="%indent_down%" y="%indent_down_left%"/>
+				<image resource="main_button_half_height_full_width"/>
+			</image>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<placement x="%center_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="home"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">home</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+			
+			<action>
+				<touch key="power"/>
+				<action function="togglebacklight"/>
+			</action>
+
+			<action>
+				<touch key="power+voldown"/>
+				<action function="screenshot"/>
+			</action>
+		</template>
+		
+		<template name="filemanageroptions">
+			<background color="%background_color%"/>
+<image> 
+<image resource="background_fmo"/> 
+<placement x="549" y="540"/> 
+</image>
+
+			<fill color="#ffffff00">
+				<condition var1="tw_simulate_actions" var2="0"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+
+			<fill color="%text_fail_color%">
+				<condition var1="tw_simulate_actions" var2="1"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="0"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@twrp_watch_header=%tw_version%}</text>
+			</text>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="1"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@cpu_temp=CPU: %tw_cpu_temp% °C}</text>
+			</text>
+
+			<text color="%header_color%">
+				<font resource="font_m"/>
+				<placement x="%center_x%" y="%row1_header_y%" placement="5"/>
+				<text>%tw_time%</text>
+			</text>
+
+			<text color="%header_color%">
+				<conditions>
+					<condition var1="tw_no_battery_percent" var2="0"/>
+					<condition var1="tw_battery" op="&gt;" var2="0"/>
+					<condition var1="tw_battery" op="&lt;" var2="101"/>
+				</conditions>
+				<font resource="font_m"/>
+				<placement x="%indent_right%" y="%row1_header_y%" placement="1"/>
+				<text>{@battery_pct=Battery: %tw_battery%}</text>
+			</text>
+
+			<image>
+				<placement x="%indent_down%" y="%indent_down_left%"/>
+				<image resource="main_button_half_height_full_width"/>
+			</image>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<placement x="%center_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="home"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">home</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+			
+			<action>
+				<touch key="power"/>
+				<action function="togglebacklight"/>
+			</action>
+
+			<action>
+				<touch key="power+voldown"/>
+				<action function="screenshot"/>
+			</action>
+		</template>
+		
+		<template name="page_wipe">
+<image> 
+<image resource="background"/> 
+<placement y="0" x="0"/> 
+</image>
+
+			<fill color="#ffffff00">
+				<condition var1="tw_simulate_actions" var2="0"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+
+			<fill color="%text_fail_color%">
+				<condition var1="tw_simulate_actions" var2="1"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="0"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@twrp_watch_header=%tw_version%}</text>
+			</text>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="1"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@cpu_temp=CPU: %tw_cpu_temp% °C}</text>
+			</text>
+
+			<text color="%header_color%">
+				<font resource="font_m"/>
+				<placement x="%center_x%" y="%row1_header_y%" placement="5"/>
+				<text>%tw_time%</text>
+			</text>
+
+			<text color="%header_color%">
+				<conditions>
+					<condition var1="tw_no_battery_percent" var2="0"/>
+					<condition var1="tw_battery" op="&gt;" var2="0"/>
+					<condition var1="tw_battery" op="&lt;" var2="101"/>
+				</conditions>
+				<font resource="font_m"/>
+				<placement x="%indent_right%" y="%row1_header_y%" placement="1"/>
+				<text>{@battery_pct=Battery: %tw_battery%}</text>
+			</text>
+
+			<image>
+				<placement x="%indent_down%" y="%indent_down_left%"/>
+				<image resource="main_button_half_height_full_width"/>
+			</image>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<placement x="%center_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="home"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">home</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+			
+			<action>
+				<touch key="power"/>
+				<action function="togglebacklight"/>
+			</action>
+
+			<action>
+				<touch key="power+voldown"/>
+				<action function="screenshot"/>
+			</action>
+		</template>
+		
+		<template name="page_themesettings">
+<image> 
+<image resource="background"/> 
+<placement y="0" x="0"/> 
+</image>
+
+			<fill color="#ffffff00">
+				<condition var1="tw_simulate_actions" var2="0"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+
+			<fill color="%text_fail_color%">
+				<condition var1="tw_simulate_actions" var2="1"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="0"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@twrp_watch_header=%tw_version%}</text>
+			</text>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="1"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@cpu_temp=CPU: %tw_cpu_temp% °C}</text>
+			</text>
+
+			<text color="%header_color%">
+				<font resource="font_m"/>
+				<placement x="%center_x%" y="%row1_header_y%" placement="5"/>
+				<text>%tw_time%</text>
+			</text>
+
+			<text color="%header_color%">
+				<conditions>
+					<condition var1="tw_no_battery_percent" var2="0"/>
+					<condition var1="tw_battery" op="&gt;" var2="0"/>
+					<condition var1="tw_battery" op="&lt;" var2="101"/>
+				</conditions>
+				<font resource="font_m"/>
+				<placement x="%indent_right%" y="%row1_header_y%" placement="1"/>
+				<text>{@battery_pct=Battery: %tw_battery%}</text>
+			</text>
+
+			<image>
+				<placement x="%indent_down%" y="%indent_down_left%"/>
+				<image resource="main_button_half_height_full_width"/>
+			</image>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<placement x="%center_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="home"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">home</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+			
+			<action>
+				<touch key="power"/>
+				<action function="togglebacklight"/>
+			</action>
+
+			<action>
+				<touch key="power+voldown"/>
+				<action function="screenshot"/>
+			</action>
+		</template>
+		
+		<template name="page_deletetheme">
+<image> 
+<image resource="background"/> 
+<placement y="0" x="0"/> 
+</image>
+
+			<fill color="#ffffff00">
+				<condition var1="tw_simulate_actions" var2="0"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+
+			<fill color="%text_fail_color%">
+				<condition var1="tw_simulate_actions" var2="1"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="0"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@twrp_watch_header=%tw_version%}</text>
+			</text>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="1"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@cpu_temp=CPU: %tw_cpu_temp% °C}</text>
+			</text>
+
+			<text color="%header_color%">
+				<font resource="font_m"/>
+				<placement x="%center_x%" y="%row1_header_y%" placement="5"/>
+				<text>%tw_time%</text>
+			</text>
+
+			<text color="%header_color%">
+				<conditions>
+					<condition var1="tw_no_battery_percent" var2="0"/>
+					<condition var1="tw_battery" op="&gt;" var2="0"/>
+					<condition var1="tw_battery" op="&lt;" var2="101"/>
+				</conditions>
+				<font resource="font_m"/>
+				<placement x="%indent_right%" y="%row1_header_y%" placement="1"/>
+				<text>{@battery_pct=Battery: %tw_battery%}</text>
+			</text>
+
+			<image>
+				<placement x="%indent_down%" y="%indent_down_left%"/>
+				<image resource="main_button_half_height_full_width"/>
+			</image>
+			
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="0"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@twrp_watch_header=%tw_version%}</text>
+			</text>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="1"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@cpu_temp=CPU: %tw_cpu_temp% °C}</text>
+			</text>
+
+			<text color="%header_color%">
+				<font resource="font_m"/>
+				<placement x="%center_x%" y="%row1_header_y%" placement="5"/>
+				<text>%tw_time%</text>
+			</text>
+
+			<text color="%header_color%">
+				<conditions>
+					<condition var1="tw_no_battery_percent" var2="0"/>
+					<condition var1="tw_battery" op="&gt;" var2="0"/>
+					<condition var1="tw_battery" op="&lt;" var2="101"/>
+				</conditions>
+				<font resource="font_m"/>
+				<placement x="%indent_right%" y="%row1_header_y%" placement="1"/>
+				<text>{@battery_pct=Battery: %tw_battery%}</text>
+			</text>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<placement x="%center_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="home"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">home</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+			
+			<action>
+				<touch key="power"/>
+				<action function="togglebacklight"/>
+			</action>
+
+			<action>
+				<touch key="power+voldown"/>
+				<action function="screenshot"/>
+			</action>
+		</template>
+		
+		<template name="page_advancedwipe">
+<image> 
+<image resource="file_manager_page"/> 
+<placement y="0" x="0"/> 
+</image>
+
+
+			<image>
+				<placement x="%indent_down%" y="%indent_down_left%"/>
+				<image resource="main_button_half_height_full_width"/>
+			</image>
+			
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="0"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@twrp_watch_header=%tw_version%}</text>
+			</text>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="1"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@cpu_temp=CPU: %tw_cpu_temp% °C}</text>
+			</text>
+
+			<text color="%header_color%">
+				<font resource="font_m"/>
+				<placement x="%center_x%" y="%row1_header_y%" placement="5"/>
+				<text>%tw_time%</text>
+			</text>
+
+			<text color="%header_color%">
+				<conditions>
+					<condition var1="tw_no_battery_percent" var2="0"/>
+					<condition var1="tw_battery" op="&gt;" var2="0"/>
+					<condition var1="tw_battery" op="&lt;" var2="101"/>
+				</conditions>
+				<font resource="font_m"/>
+				<placement x="%indent_right%" y="%row1_header_y%" placement="1"/>
+				<text>{@battery_pct=Battery: %tw_battery%}</text>
+			</text>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<placement x="%center_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="home"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">home</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+			
+			<action>
+				<touch key="power"/>
+				<action function="togglebacklight"/>
+			</action>
+
+			<action>
+				<touch key="power+voldown"/>
+				<action function="screenshot"/>
+			</action>
+		</template>
+		
+		<template name="page_installzip">
+<image> 
+<image resource="background"/> 
+<placement y="0" x="0"/> 
+</image>
 
 			<fill color="#00000030">
 				<condition var1="tw_simulate_actions" var2="0"/>
@@ -269,92 +1769,873 @@
 				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
 			</fill>
 
-			<text color="%text_color%">
-				<condition var1="tw_no_cpu_temp" var2="1"/>
-				<condition var1="tw_cpu_pos_x" var2="0"/>
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="0"/>
 				<font resource="font_m"/>
 				<placement x="%indent%" y="%row1_header_y%"/>
-				<text>%tw_version%</text>
+				<text>{@twrp_watch_header=%tw_version%}</text>
 			</text>
 
-			<text color="%text_color%">
-				<condition var1="tw_no_cpu_temp" var2="0"/>
-				<condition var1="tw_cpu_pos_x" var2="0"/>
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="1"/>
 				<font resource="font_m"/>
 				<placement x="%indent%" y="%row1_header_y%"/>
 				<text>{@cpu_temp=CPU: %tw_cpu_temp% °C}</text>
 			</text>
 
-			<text color="%text_color%">
-				<condition var1="tw_clock_12_pos_x" var2="0"/>
-				<condition var1="tw_clock_24_pos_x" var2="0"/>
+			<text color="%header_color%">
 				<font resource="font_m"/>
 				<placement x="%center_x%" y="%row1_header_y%" placement="5"/>
 				<text>%tw_time%</text>
 			</text>
 
-			<text color="%text_color%">
+			<text color="%header_color%">
 				<conditions>
 					<condition var1="tw_no_battery_percent" var2="0"/>
 					<condition var1="tw_battery" op="&gt;" var2="0"/>
 					<condition var1="tw_battery" op="&lt;" var2="101"/>
-					<condition var1="tw_battery_pos_x" var2="0"/>
 				</conditions>
 				<font resource="font_m"/>
 				<placement x="%indent_right%" y="%row1_header_y%" placement="1"/>
 				<text>{@battery_pct=Battery: %tw_battery%}</text>
 			</text>
 
-			<!-- Custom position for status bar items if defined START -->
+			<image>
+				<placement x="%indent_down%" y="%indent_down_left%"/>
+				<image resource="main_button_half_height_full_width"/>
+			</image>
 
-			<text color="%text_color%">
-				<condition var1="tw_no_cpu_temp" var2="1"/>
-				<condition var1="tw_cpu_pos_x" op="!=" var2="0"/>
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<placement x="%center_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="home"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">home</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+			
+			<action>
+				<touch key="power"/>
+				<action function="togglebacklight"/>
+			</action>
+
+			<action>
+				<touch key="power+voldown"/>
+				<action function="screenshot"/>
+			</action>
+		</template>
+		
+		<template name="page_install">
+<image> 
+<image resource="file_manager_page"/> 
+<placement y="0" x="0"/> 
+</image>
+
+			<fill color="#ffffff00">
+				<condition var1="tw_simulate_actions" var2="0"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+
+			<fill color="%text_fail_color%">
+				<condition var1="tw_simulate_actions" var2="1"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="0"/>
 				<font resource="font_m"/>
-				<placement x="%tw_cpu_pos_x%" y="%row1_header_y%"/>
-				<text>%tw_version%</text>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@twrp_watch_header=%tw_version%}</text>
 			</text>
 
-			<text color="%text_color%">
-				<condition var1="tw_no_cpu_temp" var2="0"/>
-				<condition var1="tw_cpu_pos_x" op="!=" var2="0"/>
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="1"/>
 				<font resource="font_m"/>
-				<placement x="%tw_cpu_pos_x%" y="%row1_header_y%"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
 				<text>{@cpu_temp=CPU: %tw_cpu_temp% °C}</text>
 			</text>
 
-			<text color="%text_color%">
-				<condition var1="tw_clock_12_pos_x" op="!=" var2="0"/>
-				<condition var1="tw_military_time" var2="0"/>
+			<text color="%header_color%">
 				<font resource="font_m"/>
-				<placement x="%tw_clock_12_pos_x%" y="%row1_header_y%"/>
+				<placement x="%center_x%" y="%row1_header_y%" placement="5"/>
 				<text>%tw_time%</text>
 			</text>
 
-			<text color="%text_color%">
-				<condition var1="tw_clock_24_pos_x" op="!=" var2="0"/>
-				<condition var1="tw_military_time" var2="1"/>
-				<font resource="font_m"/>
-				<placement x="%tw_clock_24_pos_x%" y="%row1_header_y%"/>
-				<text>%tw_time%</text>
-			</text>
-
-			<text color="%text_color%">
+			<text color="%header_color%">
 				<conditions>
 					<condition var1="tw_no_battery_percent" var2="0"/>
 					<condition var1="tw_battery" op="&gt;" var2="0"/>
 					<condition var1="tw_battery" op="&lt;" var2="101"/>
-					<condition var1="tw_battery_pos_x" op="!=" var2="0"/>
 				</conditions>
 				<font resource="font_m"/>
-				<placement x="%tw_battery_pos_x%" y="%row1_header_y%"/>
+				<placement x="%indent_right%" y="%row1_header_y%" placement="1"/>
 				<text>{@battery_pct=Battery: %tw_battery%}</text>
 			</text>
 
-			<!-- Custom position for status bar items if defined END -->
+			<image>
+				<placement x="%indent_down%" y="%indent_down_left%"/>
+				<image resource="main_button_half_height_full_width"/>
+			</image>
 
-			<fill color="#000000">
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
 				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<placement x="%center_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="home"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">home</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+			
+			<action>
+				<touch key="power"/>
+				<action function="togglebacklight"/>
+			</action>
+
+			<action>
+				<touch key="power+voldown"/>
+				<action function="screenshot"/>
+			</action>
+		</template>
+		
+		<template name="page_installimage">
+<image> 
+<image resource="background"/> 
+<placement y="0" x="0"/> 
+</image>
+
+			<fill color="#ffffff00">
+				<condition var1="tw_simulate_actions" var2="0"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+
+			<fill color="%text_fail_color%">
+				<condition var1="tw_simulate_actions" var2="1"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="0"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@twrp_watch_header=%tw_version%}</text>
+			</text>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="1"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@cpu_temp=CPU: %tw_cpu_temp% °C}</text>
+			</text>
+
+			<text color="%header_color%">
+				<font resource="font_m"/>
+				<placement x="%center_x%" y="%row1_header_y%" placement="5"/>
+				<text>%tw_time%</text>
+			</text>
+
+			<text color="%header_color%">
+				<conditions>
+					<condition var1="tw_no_battery_percent" var2="0"/>
+					<condition var1="tw_battery" op="&gt;" var2="0"/>
+					<condition var1="tw_battery" op="&lt;" var2="101"/>
+				</conditions>
+				<font resource="font_m"/>
+				<placement x="%indent_right%" y="%row1_header_y%" placement="1"/>
+				<text>{@battery_pct=Battery: %tw_battery%}</text>
+			</text>
+
+			<image>
+				<placement x="%indent_down%" y="%indent_down_left%"/>
+				<image resource="main_button_half_height_full_width"/>
+			</image>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<placement x="%center_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="home"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">home</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+			
+			<action>
+				<touch key="power"/>
+				<action function="togglebacklight"/>
+			</action>
+
+			<action>
+				<touch key="power+voldown"/>
+				<action function="screenshot"/>
+			</action>
+		</template>
+		
+		<template name="page_filemanagerlist">
+<image> 
+<image resource="file_manager_page"/> 
+<placement y="0" x="0"/> 
+</image>
+
+			<fill color="#ffffff00">
+				<condition var1="tw_simulate_actions" var2="0"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+
+			<fill color="%text_fail_color%">
+				<condition var1="tw_simulate_actions" var2="1"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="0"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@twrp_watch_header=%tw_version%}</text>
+			</text>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="1"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@cpu_temp=CPU: %tw_cpu_temp% °C}</text>
+			</text>
+
+			<text color="%header_color%">
+				<font resource="font_m"/>
+				<placement x="%center_x%" y="%row1_header_y%" placement="5"/>
+				<text>%tw_time%</text>
+			</text>
+
+			<text color="%header_color%">
+				<conditions>
+					<condition var1="tw_no_battery_percent" var2="0"/>
+					<condition var1="tw_battery" op="&gt;" var2="0"/>
+					<condition var1="tw_battery" op="&lt;" var2="101"/>
+				</conditions>
+				<font resource="font_m"/>
+				<placement x="%indent_right%" y="%row1_header_y%" placement="1"/>
+				<text>{@battery_pct=Battery: %tw_battery%}</text>
+			</text>
+
+			<image>
+				<placement x="%indent_down%" y="%indent_down_left%"/>
+				<image resource="main_button_half_height_full_width"/>
+			</image>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<placement x="%center_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="home"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">home</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+			
+			<action>
+				<touch key="power"/>
+				<action function="togglebacklight"/>
+			</action>
+
+			<action>
+				<touch key="power+voldown"/>
+				<action function="screenshot"/>
+			</action>
+		</template>
+		
+		<template name="page_first">
+<image> 
+<image resource="background"/> 
+<placement y="0" x="0"/> 
+</image>
+
+			<fill color="#ffffff00">
+				<condition var1="tw_simulate_actions" var2="0"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+
+			<fill color="%text_fail_color%">
+				<condition var1="tw_simulate_actions" var2="1"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="0"/>
+				<font resource="font_m"/>
+				<placement x="80" y="%row1_header_y%"/>
+				<text>%tw_version%</text>
+			</text>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="1"/>
+				<font resource="font_m"/>
+				<placement x="80" y="%row1_header_y%"/>
+				<text>{@cpu_temp=CPU: %tw_cpu_temp% °C}</text>
+			</text>
+
+			<text color="%header_color%">
+				<font resource="font_m"/>
+				<placement x="%center_x%" y="%row1_header_y%" placement="5"/>
+				<text>%tw_time%</text>
+			</text>
+	
+			<text color="%header_color%">
+				<conditions>
+					<condition var1="tw_no_battery_percent" var2="0"/>
+					<condition var1="tw_battery" op="&gt;" var2="0"/>
+					<condition var1="tw_battery" op="&lt;" var2="101"/>
+				</conditions>
+				<font resource="font_m"/>
+				<placement x="%indent_right%" y="%row1_header_y%" placement="1"/>
+				<text>%tw_battery%</text>
+			</text>
+			
+			<image>
+				<placement x="%battery_right%" y="%battery_up%"/>
+				<image resource="icon_battery"/>
+			</image>
+
+			<image>
+				<placement x="%indent_down%" y="%indent_down_left%"/>
+				<image resource="main_button_half_height_full_width"/>
+			</image>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<placement x="%center_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="home"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">home</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+			
+			<action>
+				<touch key="power"/>
+				<action function="togglebacklight"/>
+			</action>
+
+			<action>
+				<touch key="power+voldown"/>
+				<action function="screenshot"/>
+			</action>
+		</template>
+		
+		<template name="page2">
+<image> 
+<image resource="background"/> 
+<placement y="0" x="0"/> 
+</image>
+
+			<fill color="#ffffff00">
+				<condition var1="tw_simulate_actions" var2="0"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+
+			<fill color="%text_fail_color%">
+				<condition var1="tw_simulate_actions" var2="1"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="0"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@twrp_watch_header=%tw_version%}</text>
+			</text>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="1"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@cpu_temp=CPU: %tw_cpu_temp% °C}</text>
+			</text>
+
+			<text color="%header_color%">
+				<font resource="font_m"/>
+				<placement x="%center_x%" y="%row1_header_y%" placement="5"/>
+				<text>%tw_time%</text>
+			</text>
+
+			<text color="%header_color%">
+				<conditions>
+					<condition var1="tw_no_battery_percent" var2="0"/>
+					<condition var1="tw_battery" op="&gt;" var2="0"/>
+					<condition var1="tw_battery" op="&lt;" var2="101"/>
+				</conditions>
+				<font resource="font_m"/>
+				<placement x="%indent_right%" y="%row1_header_y%" placement="1"/>
+				<text>{@battery_pct=Battery: %tw_battery%}</text>
+			</text>
+
+			<fill color="#ffffff00">
+				<placement x="0" y="%navbar_y%" w="%screen_width%" h="%navbar_height%"/>
+			</fill>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<placement x="%center_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="home"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">home</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+
+			<action>
+				<touch key="power"/>
+				<action function="togglebacklight"/>
+			</action>
+
+			<action>
+				<touch key="power+voldown"/>
+				<action function="screenshot"/>
+			</action>
+		</template>
+		
+		<template name="about">
+			
+		<image> 
+			<image resource="theme_info_page"/> 
+			<placement y="0" x="0"/> 
+		</image>
+
+			<fill color="%accent_color%">
+				<placement x="0" y="0" w="%screen_width%" h="%header_height%"/>
+			</fill>
+
+			<fill color="%text_fail_color%">
+				<condition var1="tw_simulate_actions" var2="1"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+			
+			<text color="%themeheader_color%">
+				<font resource="font_m"/>
+				<placement x="%col1_x_indent%" y="775"/>
+				<text>Theme: %theme_version%</text>
+			</text>
+			
+			<text color="%themeheader_color%">
+				<font resource="font_m"/>
+				<placement x="%col1_x_indent%" y="900"/>
+				<text>Theme Designer</text>
+			</text>
+			
+			<text color="#EEEEEE">
+				<font resource="font_m"/>
+				<placement x="%col1_x_indent%" y="960"/>
+				<text>G.M.L.(Pasakalis George)</text>
+			</text>
+			
+			<text color="%themeheader_color%">
+				<font resource="font_m"/>
+				<placement x="%col1_x_indent%" y="1050"/>
+				<text>Credits</text>
+			</text>
+			
+			<text color="#EEEEEE">
+				<font resource="font_m"/>
+				<placement x="%col1_x_indent%" y="1110"/>
+				<text>Standard layout created by</text>
+			</text>
+
+			<text color="#EEEEEE">
+				<font resource="font_m"/>
+				<placement x="%col1_x_indent%" y="1170"/>
+				<text>G.M.L.(Pasakalis George)</text>
+			</text>
+			
+			<text color="%themeheader_color%">
+				<font resource="font_m"/>
+				<placement x="%col1_x_indent%" y="1630"/>
+				<text>Date Project :</text>
+			</text>
+			
+			<text color="#EEEEEE">
+				<font resource="font_m"/>
+				<placement x="515" y="1630"/>
+				<text>%theme_date%</text>
+			</text>
+			
+			<fill color="#ffffff00">
+				<placement x="0" y="%navbar_y%" w="%screen_width%" h="%navbar_height%"/>
+			</fill>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<placement x="%center_x%" y="1850" placement="4"/>
+				<image resource="home"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">home</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+
+			<action>
+				<touch key="power"/>
+				<action function="togglebacklight"/>
+			</action>
+
+			<action>
+				<touch key="power+voldown"/>
+				<action function="screenshot"/>
+			</action>
+		</template>
+		
+		<template name="page4">
+<image> 
+<image resource="background"/> 
+<placement y="0" x="0"/> 
+</image>
+
+			<fill color="#ffffff00">
+				<condition var1="tw_simulate_actions" var2="0"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+
+			<fill color="%text_fail_color%">
+				<condition var1="tw_simulate_actions" var2="1"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="0"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@twrp_watch_header=%tw_version%}</text>
+			</text>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="1"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@cpu_temp=CPU: %tw_cpu_temp% °C}</text>
+			</text>
+
+			<text color="%header_color%">
+				<font resource="font_m"/>
+				<placement x="%center_x%" y="%row1_header_y%" placement="5"/>
+				<text>%tw_time%</text>
+			</text>
+
+			<text color="%header_color%">
+				<conditions>
+					<condition var1="tw_no_battery_percent" var2="0"/>
+					<condition var1="tw_battery" op="&gt;" var2="0"/>
+					<condition var1="tw_battery" op="&lt;" var2="101"/>
+				</conditions>
+				<font resource="font_m"/>
+				<placement x="%indent_right%" y="%row1_header_y%" placement="1"/>
+				<text>{@battery_pct=Battery: %tw_battery%}</text>
+			</text>
+
+			<fill color="#ffffff00">
+				<placement x="0" y="%navbar_y%" w="%screen_width%" h="%navbar_height%"/>
+			</fill>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<placement x="%center_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="home"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">home</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+
+			<action>
+				<touch key="power"/>
+				<action function="togglebacklight"/>
+			</action>
+
+			<action>
+				<touch key="power+voldown"/>
+				<action function="screenshot"/>
+			</action>
+		</template>
+		
+		<template name="page_terminal">
+<image> 
+<image resource="background"/> 
+<placement y="0" x="0"/> 
+</image>
+
+			<fill color="#ffffff00">
+				<condition var1="tw_simulate_actions" var2="0"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+
+			<fill color="%text_fail_color%">
+				<condition var1="tw_simulate_actions" var2="1"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="0"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@twrp_watch_header=%tw_version%}</text>
+			</text>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="1"/>
+				<font resource="font_m"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>{@cpu_temp=CPU: %tw_cpu_temp% °C}</text>
+			</text>
+
+			<text color="%header_color%">
+				<font resource="font_m"/>
+				<placement x="%center_x%" y="%row1_header_y%" placement="5"/>
+				<text>%tw_time%</text>
+			</text>
+
+			<text color="%header_color%">
+				<conditions>
+					<condition var1="tw_no_battery_percent" var2="0"/>
+					<condition var1="tw_battery" op="&gt;" var2="0"/>
+					<condition var1="tw_battery" op="&lt;" var2="101"/>
+				</conditions>
+				<font resource="font_m"/>
+				<placement x="%indent_right%" y="%row1_header_y%" placement="1"/>
+				<text>{@battery_pct=Battery: %tw_battery%}</text>
+			</text>
+
+			<fill color="#ffffff00">
 				<placement x="0" y="%navbar_y%" w="%screen_width%" h="%navbar_height%"/>
 			</fill>
 
@@ -410,32 +2691,41 @@
 
 		<template name="progress_bar">
 			<progressbar>
-				<placement x="%indent%" y="%row17a_y%"/>
+				<placement x="%indent%" y="%row18_y%"/>
 				<resource empty="progress_empty" full="progress_full"/>
 				<data name="ui_progress"/>
 			</progressbar>
 
 			<animation>
-				<placement x="%indent%" y="%row17a_y%"/>
+				<placement x="%indent%" y="%row19a_y%"/>
 				<resource name="progress"/>
-				<speed fps="24" render="2"/>
+				<speed fps="30" render="1"/>
 				<loop frame="1"/>
 			</animation>
 		</template>
-
+		
+		<template name="xdasplash">
+			<animation>
+				<placement x="180" y="320"/>
+				<resource name="xdasplash"/>
+				<speed fps="28" render="1"/>
+				<loop frame="1"/>
+			</animation>
+		</template>
+  
 		<template name="sort_options">
 			<image>
-				<placement x="%indent%" y="%row1a_y%"/>
+				<placement x="%indent_l%" y="row1a_y"/>
 				<image resource="tab_3"/>
 			</image>
 
 			<image>
-				<placement x="%btn3_col2_x%" y="%row1a_y%"/>
+				<placement x="%btn3_col2_x%" y="row1a_y"/>
 				<image resource="tab_3"/>
 			</image>
 
 			<image>
-				<placement x="%btn3_col3_x%" y="%row1a_y%"/>
+				<placement x="%btn3_col3_x_r%" y="row1a_y"/>
 				<image resource="tab_3"/>
 			</image>
 
@@ -452,7 +2742,7 @@
 			<button>
 				<highlight color="%highlight_color%"/>
 				<condition var1="tw_gui_sort_order" op="=" var2="-1"/>
-				<placement x="%indent%" y="%row1a_y%"/>
+				<placement x="%indent_l%" y="%row1a_y%"/>
 				<font resource="font_s" color="%text_button_color%"/>
 				<text>{@sort_by_name_only=Name}</text>
 				<image resource="sort_desc"/>
@@ -463,6 +2753,7 @@
 				<highlight color="%highlight_color%"/>
 				<conditions>
 					<condition var1="tw_gui_sort_order" op="!=" var2="1"/>
+
 					<condition var1="tw_gui_sort_order" op="!=" var2="-1"/>
 				</conditions>
 				<placement x="%indent%" y="%row1a_y%"/>
@@ -508,7 +2799,7 @@
 			<button>
 				<highlight color="%highlight_color%"/>
 				<condition var1="tw_gui_sort_order" op="=" var2="3"/>
-				<placement x="%btn3_col3_x%" y="%row1a_y%"/>
+				<placement x="%btn3_col3_x_r%" y="%row1a_y%"/>
 				<font resource="font_s" color="%text_button_color%"/>
 				<text>{@sort_by_size_only=Size}</text>
 				<image resource="sort_asc"/>
@@ -518,7 +2809,7 @@
 			<button>
 				<highlight color="%highlight_color%"/>
 				<condition var1="tw_gui_sort_order" op="=" var2="-3"/>
-				<placement x="%btn3_col3_x%" y="%row1a_y%"/>
+				<placement x="%btn3_col3_x_r%" y="%row1a_y%"/>
 				<font resource="font_s" color="%text_button_color%"/>
 				<text>{@sort_by_size_only=Size}</text>
 				<image resource="sort_desc"/>
@@ -531,7 +2822,7 @@
 					<condition var1="tw_gui_sort_order" op="!=" var2="3"/>
 					<condition var1="tw_gui_sort_order" op="!=" var2="-3"/>
 				</conditions>
-				<placement x="%btn3_col3_x%" y="%row1a_y%"/>
+				<placement x="%btn3_col3_x_r%" y="%row1a_y%"/>
 				<font resource="font_s" color="%text_button_color%"/>
 				<text>{@sort_by_size_only=Size}</text>
 				<image resource="sort_empty"/>
@@ -541,55 +2832,37 @@
 
 		<template name="tabs_backup">
 			<fill color="%accent_color%">
-				<placement x="0" y="row1_y" w="%screen_width%" h="tab_height"/>
+				<placement x="0" y="95" w="%screen_width%" h="tab_height"/>
 			</fill>
 
 			<button style="tab">
-				<placement x="0" y="%row1_y%" w="%tab3_width%" h="%tab_height%"/>
 				<text>{@tab_backup=BACKUP}</text>
+				<placement x="0" y="%row1_y%" w="%tab3_width%" h="%tab_height%"/>
 				<action function="page">backup</action>
 			</button>
 
 			<button style="tab">
-				<placement x="%tab3_col2_x%" y="%row1_y%" w="%tab3_width%" h="%tab_height%"/>
 				<text>{@tab_options=OPTIONS}</text>
+				<placement x="%tab3_col2_x%" y="%row1_y%" w="%tab3_width%" h="%tab_height%"/>
 				<action function="page">backup_options</action>
 			</button>
 		</template>
-
-		<template name="tabs_settings">
+		
+		<template name="tabs_multirom_settings">
 			<fill color="%accent_color%">
-				<placement x="0" y="row1_y" w="%screen_width%" h="tab_height"/>
+				<placement x="0" y="%row1_y%" w="%screen_width%" h="%tab_height%"/>
 			</fill>
 
 			<button style="tab">
-				<placement x="%tab5_centered_col1_x%" y="%tab_y%" placement="4"/>
-				<image resource="tab_general"/>
-				<action function="page">settings</action>
+				<placement x="0" y="%row1_y%" w="%tab2_width%" h="%tab_height%"/>
+				<text>Boot Menu</text>
+				<action function="page">multirom_settings</action>
 			</button>
 
 			<button style="tab">
-				<placement x="%tab5_centered_col2_x%" y="%tab_y%" placement="4"/>
-				<image resource="tab_timezone"/>
-				<action function="page">settings_timezone</action>
-			</button>
-
-			<button style="tab">
-				<placement x="%center_x%" y="%tab_y%" placement="4"/>
-				<image resource="tab_display"/>
-				<action function="page">settings_screen</action>
-			</button>
-
-			<button style="tab">
-				<placement x="%tab5_centered_col4_x%" y="%tab_y%" placement="4"/>
-				<image resource="tab_vibration"/>
-				<action function="page">settings_vibration</action>
-			</button>
-
-			<button style="tab">
-				<placement x="%tab5_centered_col5_x%" y="%tab_y%" placement="4"/>
-				<image resource="tab_language"/>
-				<action function="page">settings_language</action>
+				<placement x="%tab2_col2_x%" y="%row1_y%" w="%tab2_width%" h="%tab_height%"/>
+				<text>Auto Boot</text>
+				<action function="page">multirom_settings_autoboot</action>
 			</button>
 		</template>
 
@@ -622,13 +2895,17 @@
 		</template>
 
 		<template name="keyboardterminaltemplate">
+			<image>
+				<image resource="terminal_background"/>
+				<placement x="0" y="keyboard_terminal_y"/>
+			</image>
 			<keyboard>
 				<condition var1="tw_hide_kb" var2="0"/>
 				<placement x="0" y="%keyboard_terminal_y%" w="%screen_width%" h="96"/>
 				<keymargin x="0" y="0"/>
-				<background color="#111111"/>
+				<background color="#5F000000"/>
 				<key-alphanumeric color="#111111" font="keylabel" textcolor="#EEEEEE"/>
-				<key-other color="#111111" font="keylabel-small" textcolor="#5b5b5bff"/>
+				<key-other color="#ffffff00" font="keylabel-small" textcolor="#5b5b5bff"/>
 				<longpress font="keylabel-longpress" textcolor="#5b5b5bff" x="12" y="0"/>
 				<keylabel key="0:k:29" text="Ctrl"/>
 				<keylabel key="0:c:27" text="Esc"/>
@@ -638,7 +2915,7 @@
 				<keylabel key="0:k:103" text="^" resource="kb_arrow_up"/>
 				<keylabel key="0:k:106" text="&gt;" resource="kb_arrow_right"/>
 				<highlight color="%highlight_color%"/>
-				<ctrlhighlight color="#0090CA80"/>
+				<ctrlhighlight color="#ffffff80"/>
 				<layout1>
 					<keysize height="96" width="154"/>
 					<row1 key01="155:k:29" key02="155:c:27" long02=":c:3" key03="154:c:9" key04="154:k:105" key05="154:k:108" key06="154:k:103" key07="154:k:106"/>
@@ -647,13 +2924,17 @@
 		</template>
 
 		<template name="keyboardtemplate">
+			<image>
+				<image resource="keyboard_background"/>
+				<placement x="0" y="keyboard_y"/>
+			</image>
 			<keyboard>
 				<condition var1="tw_hide_kb" var2="0"/>
 				<placement x="0" y="%keyboard_y%" w="1080" h="644"/>
 				<keymargin x="8" y="8"/>
-				<background color="#111111"/>
-				<key-alphanumeric color="#111111" font="keylabel" textcolor="#EEEEEE"/>
-				<key-other color="#111111" font="keylabel-small" textcolor="#5b5b5bff"/>
+				<background color="#5F000000"/>
+				<key-alphanumeric color="#ffffff00" font="keylabel" textcolor="#EEEEEE"/>
+				<key-other color="#ffffff00" font="keylabel-small" textcolor="#5b5b5bff"/>
 				<longpress font="keylabel-longpress" textcolor="#5b5b5bff" x="12" y="0"/>
 				<keylabel key="0:c:8" text="Bksp" resource="backspace"/>
 				<keylabel key="0:action" text="Enter" resource="enter"/>
@@ -696,30 +2977,6 @@
 					<keylabel key="0:layout1" text="ABC"/>
 					<keylabel key="0:layout3" text="?123"/>
 				</layout4>
-			</keyboard>
-		</template>
-
-		<template name="keyboardnum">
-			<keyboard>
-				<condition var1="tw_hide_kb" var2="0"/>
-				<placement x="0" y="%keyboard_y%" w="1080" h="644"/>
-				<keymargin x="8" y="8"/>
-				<background color="#111111"/>
-				<key-alphanumeric color="#111111" font="keylabel" textcolor="#EEEEEE"/>
-				<key-other color="#111111" font="keylabel-small" textcolor="#5b5b5bff"/>
-				<longpress font="keylabel-longpress" textcolor="#5b5b5bff" x="12" y="0"/>
-				<keylabel key="0:c:8" text="Bksp" resource="backspace"/>
-				<keylabel key="0:action" text="Enter" resource="enter"/>
-				<keylabel key=" " text="Space" resource="space"/>
-				<highlight color="%highlight_color%"/>
-				<capshighlight color="%highlight_color%"/>
-				<layout1>
-					<keysize height="160" width="212"/>
-					<row1 key01="225:" key02="1" key03="2" key04="3" key05="225:"/>
-					<row2 key01="225:" key02="4" key03="5" key04="6" key05="225:"/>
-					<row3 key01="225:" key02="7" key03="8" key04="9" key05="225:"/>
-					<row4 key01="225:" key02="212:c:8" key03="0" key04="214:action" key05="225:"/>
-				</layout1>
 			</keyboard>
 		</template>
 	</templates>
