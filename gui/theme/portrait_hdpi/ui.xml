@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<recovery>
+	<details>
+		<resolution width="1080" height="1920"/>
+		<author>fordownloads</author>
+		<title>Pie Door</title>
+		<description>Дверь в мир Android P</description>
+		<preview></preview>
+		<themeversion>3</themeversion> <!-- !!! МЕНЯТЬ НЕ РЕКОМЕНДУЕТСЯ (МИНИМУМ 2) !!! -->
+	</details>
+	
+	<include>
+		<xmlfile name="themes/bar.xml"/>
+		<xmlfile name="themes/font.xml"/>
+		<xmlfile name="themes/style.xml"/>
+		<xmlfile name="themes/accent.xml"/>
+		<xmlfile name="resources/images.xml"/>
+		<xmlfile name="resources/vars.xml"/>
+		<xmlfile name="resources/styles.xml"/> <!-- Фоновая картинка (пока) не поддерживается! Сорри! -->
+	
+		<xmlfile name="pages/templates/keyboard.xml"/>
+		<xmlfile name="pages/templates/navbar.xml"/>
+		<xmlfile name="pages/templates/statusbar.xml"/>
+		<xmlfile name="pages/templates/templates.xml"/>
+		
+		<xmlfile name="pages/main.xml"/>
+		<xmlfile name="pages/pass.xml"/>
+		<xmlfile name="pages/install.xml"/>
+		<xmlfile name="pages/wipe.xml"/>
+		<xmlfile name="pages/backup.xml"/>
+		<xmlfile name="pages/restore.xml"/>
+		<xmlfile name="pages/mount.xml"/>
+		<xmlfile name="pages/files.xml"/>
+		<xmlfile name="pages/advanced.xml"/>
+		<xmlfile name="pages/reboot.xml"/>
+		<xmlfile name="pages/settings.xml"/>
+		<xmlfile name="pages/workshop.xml"/>
+		<xmlfile name="pages/aikrepack.xml"/>
+		<xmlfile name="pages/universal.xml"/>
+		<xmlfile name="pages/anywhere.xml"/>
+		<xmlfile name="pages/dialogs.xml"/>
+	</include>
+	<variables>
+		<variable name="theme_version" value="PieDoor Beta v0.1"/>
+		<variable name="screen_h" value="1920"/>
+		<variable name="center_y" value="960"/>
+	</variables>
+</recovery>
